@@ -13,4 +13,24 @@ $(document).ready(function(){
     } else {
         qr_button.hide();
     }
+
+    const form_subscribe = $('#form-subscribe')
+    if(form_subscribe.length)
+    {
+        form_subscribe.submit(function (e) {
+            e.preventDefault();
+            const dataString = $(this).serialize();
+            console.log(dataString)
+            $.ajax({
+                type: "POST",
+                url: form_subscribe.attr('action'),
+                data: dataString,
+                success: function (data) {
+                    console.log(data)
+                    form_subscribe.find('input[type="email"]').val('')
+                    // $('#modalSubscribe').modal('show')
+                }
+            });
+        })
+    }
 })
