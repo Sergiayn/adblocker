@@ -7,12 +7,12 @@ $(document).ready(function(){
         $('.reviews').slick({arrows: true, rows: 2});
     }
 
-    const qr_button = $('.link_app_store_qr');
-    if($( window ).width() > 991) {
-        // qr_button.click();
-    } else {
-        qr_button.hide();
-    }
+    // const qr_button = $('.link_app_store_qr');
+    // if($( window ).width() > 991) {
+    //     // qr_button.click();
+    // } else {
+    //     qr_button.hide();
+    // }
 
     const form_subscribe = $('#form-subscribe')
     if(form_subscribe.length)
@@ -25,10 +25,9 @@ $(document).ready(function(){
                 type: "POST",
                 url: form_subscribe.attr('action'),
                 data: dataString,
-                success: function (data) {
-                    console.log(data)
+                success: function () {
                     form_subscribe.find('input[type="email"]').val('')
-                    // $('#modalSubscribe').modal('show')
+                    $('#modalSubscribe').modal('show')
                 }
             });
         })
