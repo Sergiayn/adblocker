@@ -7,6 +7,11 @@ $(document).ready(function(){
         $('.reviews').slick({arrows: true, rows: 2});
     }
 
+    $('.features-mobile-slider').slick({
+        dots: true,
+        arrows: false
+    });
+
     // const qr_button = $('.link_app_store_qr');
     // if($( window ).width() > 991) {
     //     // qr_button.click();

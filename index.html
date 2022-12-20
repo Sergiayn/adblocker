@@ -28,56 +28,99 @@
 <div class="main" id="block_home">
     <div class="main-top">
         <div class="main-top-bg">
-            <div class="container">
-                <div class="d-none d-xl-block d-lg-block d-md-block">
-                    <div class="row">
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-                            <div class="logo">
+            <div class="fixed-header">
+                <div class="container">
+                    <div class="d-none d-xl-block d-lg-block d-md-block">
+                        <div class="row">
+                            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-xs-4">
+                                <a class="logo" href="/">
+                                    <img src="/img/logo.svg" class="img-fluid" alt="AdBlocker">
+                                    <span>AdBlocker</span>
+                                </a>
+                            </div>
+                            <div class="col-xl-10 col-lg-8 col-md-8 col-sm-8 col-xs-8">
+                                <div class="top-menu">
+                                    <ul>
+                                        <li><a href="#block_features">Features</a></li>
+                                        <li><a href="#block_reviews">Reviews</a></li>
+                                        <li><a href="#block_our_products">Our products</a></li>
+                                        <li><a href="#block_subscribe">Subscribe</a></li>
+                                        <li><a href="https://track-voluum.robocleaner.galaxys.info/click">Download</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-xl-none d-lg-none d-md-none d-sm-block d-xs-block">
+                        <div class="mobile-header">
+                            <a class="logo" href="/">
                                 <img src="/img/logo.svg" class="img-fluid" alt="AdBlocker">
                                 <span>AdBlocker</span>
-                            </div>
-                        </div>
-                        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
-                            <div class="top-menu">
-                                <ul>
-                                    <li><a href="#block_home">Home</a></li>
-                                    <li><a href="#block_features">Features</a></li>
-                                    <li><a href="#block_reviews">Reviews</a></li>
-                                    <li><a href="#block_our_products">Our products</a></li>
-                                    <li><a href="https://track-voluum.robocleaner.galaxys.info/click">Download</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="d-xl-none d-lg-none d-md-none d-sm-block d-xs-block">
-                    <div class="mobile-header">
-                        <div class="logo">
-                            <img src="/img/logo.svg" class="img-fluid" alt="AdBlocker">
-                            <span>AdBlocker</span>
-                        </div>
-                        <div class="mobile-top-menu">
-                            <nav class="navbar navbar-dark">
-                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                                    <span class="navbar-toggler-icon"></span>
-                                </button>
-                            </nav>
-                            <div class="collapse" id="navbarToggleExternalContent">
-                                <ul>
-                                    <li><a href="#block_home">Home</a></li>
-                                    <li><a href="#block_features">Features</a></li>
-                                    <li><a href="#block_reviews">Reviews</a></li>
-                                    <li><a href="#block_our_products">Our products</a></li>
-                                    <li><a href="#block_download">Download</a></li>
-                                </ul>
+                            </a>
+                            <div class="mobile-top-menu">
+                                <nav class="navbar navbar-dark">
+                                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                                        <span class="navbar-toggler-icon"></span>
+                                    </button>
+                                </nav>
+                                <div class="collapse" id="navbarToggleExternalContent">
+                                    <ul>
+                                        <li><a href="#block_features">Features</a></li>
+                                        <li><a href="#block_reviews">Reviews</a></li>
+                                        <li><a href="#block_our_products">Our products</a></li>
+                                        <li><a href="#block_subscribe">Subscribe</a></li>
+                                        <li><a href="#block_download">Download</a></li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
 
+            <div class="container">
                 <div class="banner">
-                    <h2>Say goodbye to annoying ads with AdBlocker !</h2>
-                    <h4>The best iOS ad blocker for Safari browser. AdBlocker is able to eliminate all kinds of ads in Safari, protect your privacy, and reduce page loading times.</h4>
+                    <h2>Say goodbye to annoying ads with AdBlocker!</h2>
+                    <h4>The IOS ad blocker for Safari browser!</h4>
+                    <div class="link_app">
+                        <a href="https://track-voluum.robocleaner.galaxys.info/click" class="link_app_store"><img src="/img/bg/app_store.svg" alt="app store"></a>
+                        <a href="https://track-voluum.robocleaner.galaxys.info/click" class="link_app_store_qr" data-toggle="modal" data-target="#modal_appstore_qr"><img src="/img/bg/scan_qr.svg" alt="qr code"></a>
+                    </div>
+                    <span class="desc">Try AdBlocker now and get 7 days trial!</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="block-features" id="block_features">
+        <div class="part_1">
+            <div class="container">
+                <div class="block-features-inner">
+                    <div class="title-block">Features</div>
+                    <div class="feature-list">
+                        <ul>
+                            <li>
+                                <img src="/img/bg/feature/feature_1.svg" alt="No pop-up windows!">
+                                <div class="title-item">No pop-up windows!</div>
+                                <div class="brief-item">With app you will forget about the pop-up windows that are so annoying.</div>
+                            </li>
+                            <li>
+                                <img src="/img/bg/feature/feature_4.svg" alt="Block adult sites!">
+                                <div class="title-item">Block adult sites!</div>
+                                <div class="brief-item">This feature has unlimited benefits, especially for your children using the Internet space. Be calm - they will not see 18+ sites.</div>
+                            </li>
+                            <li>
+                                <img src="/img/bg/feature/feature_3.svg" alt="Create a white list.">
+                                <div class="title-item">Create a "white list".</div>
+                                <div class="brief-item">With the help of such a list, I will understand where I will be less effective in blocking, and you will be able to see ads on such sites.</div>
+                            </li>
+                            <li>
+                                <img src="/img/bg/feature/feature_2.svg" alt="Goodbye intrusive advertising!">
+                                <div class="title-item">Goodbye intrusive advertising!</div>
+                                <div class="brief-item">Use the Internet without advertising that will befall you at every step.</div>
+                            </li>
+                        </ul>
+                    </div>
                     <div class="link_app">
                         <a href="https://track-voluum.robocleaner.galaxys.info/click" class="link_app_store"><img src="/img/bg/app_store.svg" alt="app store"></a>
                         <a href="https://track-voluum.robocleaner.galaxys.info/click" class="link_app_store_qr" data-toggle="modal" data-target="#modal_appstore_qr"><img src="/img/bg/scan_qr.svg" alt="qr code"></a>
@@ -85,127 +128,70 @@
                 </div>
             </div>
         </div>
-    </div>
-
-    <div class="block-features" id="block_features">
-        <div class="container">
-            <div class="block-features-inner">
-                <div class="d-none d-xl-block d-lg-block d-md-block">
-                    <div class="row">
-                        <div class="col-6">
-                            <img src="/img/bg/feature_1_iPhone_13_Pro.png" alt="">
-                        </div>
-                        <div class="col-6">
-                            <div class="feature-desc">
-                                AdBlocker blocks dozens of ads to speed up your Safari browsing on your iPhone. You can also use filter lists, like Block Widgets, Block Trackers, or Adult Sites. It blocks trackers from social media sites and basically cleans up Safari so your browsing experience is smoother.
-                            </div>
-                        </div>
-                        <div class="col-6">
-                            <div class="feature-list">
-                                <ul>
-                                    <li>
-                                        <img src="/img/bg/feature/feature_1.png" alt="">
-                                        <div>Block websites with suspicious materials</div>
-                                    </li>
-                                    <li>
-                                        <img src="/img/bg/feature/feature_2.png" alt="">
-                                        <div>No more distracting ads</div>
-                                    </li>
-                                    <li>
-                                        <img src="/img/bg/feature/feature_3.png" alt="">
-                                        <div>Block websites with malware</div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-6">
-                            <img src="/img/bg/feature_2_iPhone_13_Pro.png" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="d-xl-none d-lg-none d-md-none d-sm-block d-xs-block">
-                    <div class="feature-desc">
-                        AdBlocker blocks dozens of ads to speed up your Safari browsing on your iPhone. You can also use filter lists, like Block Widgets, Block Trackers, or Adult Sites. It blocks trackers from social media sites and basically cleans up Safari so your browsing experience is smoother.
-                    </div>
-                    <img src="/img/bg/feature_1_iPhone_13_Pro.png" alt="">
-                    <div class="feature-list">
-                        <ul>
-                            <li>
-                                <img src="/img/bg/feature/feature_1.png" alt="">
-                                <div>Block websites with suspicious materials</div>
-                            </li>
-                            <li>
-                                <img src="/img/bg/feature/feature_2.png" alt="">
-                                <div>No more distracting ads</div>
-                            </li>
-                            <li>
-                                <img src="/img/bg/feature/feature_3.png" alt="">
-                                <div>Block websites with malware</div>
-                            </li>
-                        </ul>
-                    </div>
-                    <img src="/img/bg/feature_2_iPhone_13_Pro.png" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="block-review" id="block_reviews">
-        <div class="block-review_bg">
+        <div class="part_2">
             <div class="container">
-                <div class="block-review-inner">
-                    <div class="title">What people say about us</div>
-                    <div class="reviews">
-                        <div class="review">
-                            <div class="review-inner">
-                                <div class="name">Vicki45</div>
-                                <div class="mark">
-                                    <i class="icon ic-star"></i>
-                                    <i class="icon ic-star"></i>
-                                    <i class="icon ic-star"></i>
-                                    <i class="icon ic-star"></i>
-                                    <i class="icon ic-star"></i>
+                <div class="block-features-inner">
+                    <div class="d-none d-xl-block d-lg-block d-md-block d-sm-block">
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="desc">
+                                    <div class="desc-inner">
+                                        <div class="left">
+                                            We have developed this product to ensure the quality of filtering web content, while leaving little use of device resources.
+                                            <br>
+                                            AdBlocker – safe and easy to use.
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="comment">Customer service is amazing. very responsive and help fix any issues or concerns right away.</div>
+                            </div>
+                            <div class="col-6">
+                                <div class="img"><img class="img-fluid" src="/img/bg/feature/feature_img_1.png" alt=""></div>
+                            </div>
+                            <div class="col-6">
+                                <div class="img"><img class="img-fluid" src="/img/bg/feature/feature_img_2.png" alt=""></div>
+                            </div>
+                            <div class="col-6">
+                                <div class="desc">
+                                    <div class="desc-inner">
+                                        <div class="right">
+                                            <p>
+                                                <strong>Privacy protection.</strong>
+                                                <span>Many users don't want to provide their data for web analytics on the sites they go to. AdBlocker will protect your personal data from surveillance and web analytics.</span>
+                                            </p>
+                                            <p>
+                                                <strong>Minimalist design.</strong>
+                                                <span>The application is simple and intuitive, all settings are available in the menu section. There are no hidden options to look for.</span>
+                                            </p>
+                                            <p>
+                                                <strong>And a very important highlight - Available in dark color.</strong>
+                                                <span>All users who have switched their phone settings to a dark theme for a long time will definitely appreciate it.</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="review">
-                            <div class="review-inner">
-                                <div class="name">Mark1995</div>
-                                <div class="mark">
-                                    <i class="icon ic-star"></i>
-                                    <i class="icon ic-star"></i>
-                                    <i class="icon ic-star"></i>
-                                    <i class="icon ic-star"></i>
-                                    <i class="icon ic-star"></i>
+                    </div>
+                    <div class="d-xl-none d-lg-none d-md-none d-sm-none d-xs-block">
+                        <div class="features-mobile-slider">
+                            <div class="feature-item">
+                                <div class="desc">
+                                    We have developed this product to ensure the quality of filtering web content, while leaving little use of device resources.
+                                    AdBlocker – safe and easy to use.
                                 </div>
-                                <div class="comment">Best blocker </div>
+                                <div class="img"><img class="img-fluid" src="/img/bg/feature/feature_slide_1.png" alt=""></div>
                             </div>
-                        </div>
-                        <div class="review">
-                            <div class="review-inner">
-                                <div class="name">OrhanVH</div>
-                                <div class="mark">
-                                    <i class="icon ic-star"></i>
-                                    <i class="icon ic-star"></i>
-                                    <i class="icon ic-star"></i>
-                                    <i class="icon ic-star"></i>
-                                    <i class="icon ic-star"></i>
+                            <div class="feature-item">
+                                <div class="desc">
+                                    <strong>Minimalist design.</strong> The application is simple and intuitive, all settings are available in the menu section. There are no hidden options to look for.
                                 </div>
-                                <div class="comment">I like this blocker so much. Works perfectly !</div>
+                                <div class="img"><img class="img-fluid" src="/img/bg/feature/feature_slide_2.png" alt=""></div>
                             </div>
-                        </div>
-                        <div class="review">
-                            <div class="review-inner">
-                                <div class="name">Fgttt</div>
-                                <div class="mark">
-                                    <i class="icon ic-star"></i>
-                                    <i class="icon ic-star"></i>
-                                    <i class="icon ic-star"></i>
-                                    <i class="icon ic-star"></i>
-                                    <i class="icon ic-star"></i>
+                            <div class="feature-item">
+                                <div class="desc">
+                                    <strong>And a very important highlight - Available in dark color.</strong> All users who have switched their phone settings to a dark theme for a long time will definitely appreciate it.
                                 </div>
-                                <div class="comment">The most exiting iOS adblocker I have ever seen !</div>
+                                <div class="img"><img class="img-fluid" src="/img/bg/feature/feature_slide_3.png" alt=""></div>
                             </div>
                         </div>
                     </div>
@@ -213,11 +199,88 @@
             </div>
         </div>
     </div>
+    <div class="block-promo" id="block_our_products">
+        <div class="container">
+            <div class="block-promo-inner">
+                <div class="row">
+                    <div class="col-12 col-xl-6 col-lg-6 col-sm-6">
+                        <div class="desc">
+                            AdBlocker blocks dozens of ads to speed up your Safari browsing on your iPhone. You can also use filter lists, like Block Trackers, or Adult Sites. It blocks trackers from social media sites and basically cleans up Safari so your browsing experience is smoother.
+                        </div>
+                    </div>
+                    <div class="col-12 col-xl-6 col-lg-6 col-sm-6">
+                        <div class="img"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="block-review" id="block_reviews">
+        <div class="container">
+            <div class="block-review-inner">
+                <div class="title">What people say about us</div>
+                <div class="reviews">
+                    <div class="review">
+                        <div class="review-inner">
+                            <div class="name">Vicki45</div>
+                            <div class="mark">
+                                <i class="icon ic-star"></i>
+                                <i class="icon ic-star"></i>
+                                <i class="icon ic-star"></i>
+                                <i class="icon ic-star"></i>
+                                <i class="icon ic-star"></i>
+                            </div>
+                            <div class="comment">Customer service is amazing. very responsive and help fix any issues or concerns right away.</div>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <div class="review-inner">
+                            <div class="name">Mark1995</div>
+                            <div class="mark">
+                                <i class="icon ic-star"></i>
+                                <i class="icon ic-star"></i>
+                                <i class="icon ic-star"></i>
+                                <i class="icon ic-star"></i>
+                                <i class="icon ic-star"></i>
+                            </div>
+                            <div class="comment">Best blocker </div>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <div class="review-inner">
+                            <div class="name">OrhanVH</div>
+                            <div class="mark">
+                                <i class="icon ic-star"></i>
+                                <i class="icon ic-star"></i>
+                                <i class="icon ic-star"></i>
+                                <i class="icon ic-star"></i>
+                                <i class="icon ic-star"></i>
+                            </div>
+                            <div class="comment">I like this blocker so much. Works perfectly !</div>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <div class="review-inner">
+                            <div class="name">Fgttt</div>
+                            <div class="mark">
+                                <i class="icon ic-star"></i>
+                                <i class="icon ic-star"></i>
+                                <i class="icon ic-star"></i>
+                                <i class="icon ic-star"></i>
+                                <i class="icon ic-star"></i>
+                            </div>
+                            <div class="comment">The most exiting iOS adblocker I have ever seen !</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-    <div class="block-subscriber">
+    <div class="block-subscriber" id="block_subscribe">
         <div class="container">
             <div class="block-subscriber-inner">
-                <div class="title">Subscribe to AdBlocker news</div>
+                <div class="title">Subscribe to AdBlocker news and interesting tips</div>
                 <div class="desc">
                     Be the first to get the latest news about online privacy and ad blocking, AdBlocker product releases, and more.
                 </div>
@@ -236,16 +299,57 @@
     </div>
     <footer>
         <div class="container">
-            <div class="copyright">
-                © AdBlocker, <span>2022</span>
+            <div class="footer-top">
+                <div class="row">
+                    <div class="col-5">
+                        <div class="desc">
+                            <div class="title">Our Products</div>
+                            <div class="name">RoboCleaner</div>
+                            <div class="brief">With this application you will tidy up your IPhone</div>
+                        </div>
+                    </div>
+                    <div class="col-7">
+                        <div class="d-xl-block d-lg-none d-md-block d-sm-none">
+                            <div class="link_app">
+                                <a href="https://track-voluum.robocleaner.galaxys.info/click" class="link_app_store"><img src="/img/bg/app_store.svg" alt="app store"></a>
+                                <a href="https://track-voluum.robocleaner.galaxys.info/click" class="link_app_store_qr" data-toggle="modal" data-target="#modal_appstore_qr_robo"><img src="/img/bg/scan_qr.svg" alt="qr code"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="footer-menu">
+            <div class="footer-middle">
+                <div class="row">
+                    <div class="col-xl-10 col-lg-8 col-md-10 col-sm-12 col-xs-12">
+                        <div class="list">
+                            <ul>
+                                <li>Track phone memory details;</li>
+                                <li>Cleaning contacts;</li>
+                                <li>Ad blocker for Safari;</li>
+                                <li>Compressor photos/videos;</li>
+                                <li>Cleaning events in calendar;</li>
+                                <li>Cleaning photos/videos.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-4 col-md-2 col-sm-12 col-xs-12">
+                        <div class="d-xl-none d-lg-block d-md-none d-sm-block d-xs-block">
+                            <div class="link_app">
+                                <a href="https://track-voluum.robocleaner.galaxys.info/click" class="link_app_store"><img src="/img/bg/app_store.svg" alt="app store"></a>
+                                <a href="https://track-voluum.robocleaner.galaxys.info/click" class="link_app_store_qr" data-toggle="modal" data-target="#modal_appstore_qr_robo"><img src="/img/bg/scan_qr.svg" alt="qr code"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div>
+                    <span class="d-xl-none">iPhone and iPad is a trademark of Apple Inc., registered in the U.S. and other countries. Copiright © 2022.</span>
+                    <span>Made with love by Yavorsky Team. All Rights Reserved.</span>
+                </div>
                 <ul>
-                    <li><a href="#block_home">Home</a></li>
-                    <li><a href="#block_features">Features</a></li>
-                    <li><a href="#block_reviews">Reviews</a></li>
-                    <li><a href="#block_our_products">Our products</a></li>
-                    <li><a href="https://apps.apple.com/us/app/adblocker-protection/id1587657245">Download</a></li>
+                    <li><a href="/contact.html">Contact Us</a></li>
+                    <li><a href="/privacy.html">Privacy Policy</a></li>
                 </ul>
             </div>
         </div>
@@ -278,6 +382,21 @@
             </div>
             <div class="modal-body">
                 <img src="/img/app_store_qr_code.jpg" alt="qr code">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="modal_appstore_qr_robo" tabindex="-1" role="dialog" aria-labelledby="modal_appstore_qrRoboLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal_appstore_qrRoboLabel">Scan to download</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <img src="/img/robo_app_store_qr_code.jpg" alt="qr code">
             </div>
         </div>
     </div>
