@@ -53,12 +53,16 @@ body .main-top, .main-top a {
 
 .mobile-top-menu ul {
     list-style: none;
+    margin: 16px 0;
     padding: 0;
     width: 200px;
 }
 .mobile-top-menu > nav {
     align-content: flex-end;
     flex-flow: column wrap;
+}
+.mobile-top-menu .navbar-toggler-icon {
+    background: url("/img/bg/mobile_icon_menu.svg") center center no-repeat;
 }
 
 .menu-top {
@@ -141,8 +145,11 @@ body .main-top, .main-top a {
         padding-right: 5px;
     }
     .fixed-header {
-        font-size: 8px;
-        padding: 2px 0;
+        font-size: 10px;
+        padding: 5px 0;
+    }
+    .mobile-top-menu ul {
+        text-align: right;
     }
     .mobile-top-menu button {
         border: none;
@@ -272,6 +279,17 @@ body .main-top, .main-top a {
         display: none;
     }
 }
+@media (max-width:576px) {
+    .banner {
+        padding: 40px 0 290px;
+    }
+    .banner h2 {
+        margin-bottom: 20px;
+    }
+    .banner h4 {
+        margin-bottom: 30px;
+    }
+}
 
 
 
@@ -284,7 +302,7 @@ body .main-top, .main-top a {
 }
 .block-features .part_1 .title-block {
     font-size: 36px;
-    font-weight: 600;
+    font-weight: 700;
     padding-bottom: 20px;
 }
 .block-features .part_1 .feature-list ul {
@@ -385,6 +403,7 @@ body .main-top, .main-top a {
 @media (max-width:768px){
     .block-features .part_1 .title-block {
         font-size: 22px;
+        padding-bottom: 40px;
     }
     .block-features .part_1 .feature-list ul {
         margin-bottom: 15px;
@@ -447,7 +466,7 @@ body .main-top, .main-top a {
 }
 .block-promo .img {
     background-repeat: no-repeat;
-    background-image: url("/img/bg/promo_img_1.png"), url("/img/bg/promo_img_2.png");
+    background-image: url("/img/bg/promo_img_1.png?v=2"), url("/img/bg/promo_img_2.png");
     background-size: 40%, 30%;
     background-position: left center, 60% bottom;
     height: 480px;
@@ -525,6 +544,11 @@ body .main-top, .main-top a {
 @media (max-width:1200px){
     .block-review .review-inner {
         height: auto;
+    }
+}
+@media (max-width:576px){
+    .block-review .title {
+        font-size: 24px;
     }
 }
 .block-review-inner .name {
@@ -830,20 +854,19 @@ footer {
     padding: 20px 0 0;
 }
 .footer-top {
-    font-size: 20px;
+    font-size: 16px;
     padding-bottom: 30px;
 }
 .footer-top .desc {
     max-width: 360px;
 }
-.footer-top .title .footer-top .name {
-    font-weight: 500;
-}
 .footer-top .title {
+    font-weight: 600;
     padding-bottom: 12px;
 }
 .footer-top .name {
     background: url("/img/bg/logo-robo.png") left center no-repeat;
+    font-weight: 500;
     padding-left: 32px;
     margin-bottom: 5px;
 }
@@ -857,7 +880,7 @@ footer {
 }
 
 .footer-middle {
-    font-size: 20px;
+    font-size: 16px;
     padding-bottom: 55px;
 }
 .footer-middle ul {
@@ -925,6 +948,19 @@ footer {
 @media (max-width:576px){
     .footer-top, .footer-middle {
         font-size: 14px;
+    }
+    .footer-top {
+        padding-bottom: 0;
+    }
+    .footer-top .desc {
+        max-width: none;
+    }
+    .footer-top .title {
+        padding-bottom: 5px;
+        text-align: center;
+    }
+    .footer-middle li {
+        flex: 100%;
     }
 }
 
