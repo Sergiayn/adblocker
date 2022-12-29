@@ -19,6 +19,21 @@ $(document).ready(function(){
     //     qr_button.hide();
     // }
 
+    const modalCookieAgreement = () => {
+        const cookie_name = 'coolie_is_accept'
+        const modal = $('#modalCookieAgreement')
+
+        if ('1' !== ('; '+document.cookie).split(`; ${cookie_name}=`).pop().split(';')[0])
+            modal.modal('show')
+
+        modal.find('.accept').click(() => {
+            const date = new Date();
+            date.setFullYear(date.getFullYear() + 10);
+            document.cookie = `${cookie_name}=1;path=/;expires=${date.toUTCString()};max-age=${date.toUTCString()};`
+        })
+    }
+    modalCookieAgreement()
+
     const form_subscribe = $('#form-subscribe')
     if(form_subscribe.length)
     {

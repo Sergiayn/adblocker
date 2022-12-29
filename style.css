@@ -157,6 +157,7 @@ body .main-top, .main-top a {
         padding: 5px 0;
     }
     .mobile-top-menu ul {
+        font-size: 17px;
         text-align: right;
     }
     .mobile-top-menu button {
@@ -1025,6 +1026,19 @@ footer {
 #modal_appstore_qr .modal-body {
     text-align: center;
     padding-bottom: 40px;
+}
+
+#modalCookieAgreement .modal-body {
+    padding: 16px;
+}
+#modalCookieAgreement .accept {
+    box-sizing: border-box;
+    background: #0D513A;
+    border-radius: 8px;
+    color: white;
+    display: block;
+    margin: auto;
+    padding: 8px 36px;
 }
 
 
