@@ -45,7 +45,7 @@ $(document).ready(function(){
         constructor(showModal) {
             this.el = $('.blockCelebrateContent')
             this.flipper_block = document.getElementById('flipclock-1')
-            $.post( "/data/holidays.json", ( data ) => {
+            $.get( "/data/holidays.json", ( data ) => {
                 this.data = data
 
                 if (showModal)
