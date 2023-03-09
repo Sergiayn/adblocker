@@ -147,6 +147,12 @@ $(document).ready(function(){
     }
     top_menu_scroll()
 
+    setTimeout(function (){
+        let download_link = $('.check_download_link')
+        if ('https://track-voluum.robocleaner.galaxys.info/click' === download_link.attr('href'))
+            download_link.attr('href', 'https://apps.apple.com/US/app/id1587657245?mt=8')
+    },200)
+
     // function isScrolledIntoView(elem)
     // {
     //     var docViewTop = $(window).scrollTop();
