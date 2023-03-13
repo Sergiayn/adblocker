@@ -1238,6 +1238,8 @@ footer {
     background-position: left center;
     background-repeat: no-repeat;
     background-size: 32px 32px;
+    display: block;
+    color: white;
     line-height: 32px;
     min-height: 32px;
     font-weight: 500;
