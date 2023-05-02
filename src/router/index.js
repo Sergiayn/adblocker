@@ -11,26 +11,26 @@ const routes = [
             next()
         },
         children: [
-            // {
-            //     path: "",
-            //     name: "Home",
-            //     component: () => import("@/views/PageHome.vue"),
-            // },
-            // {
-            //     path: "contact",
-            //     name: "Contact",
-            //     component: () => import("@/views/PageContact.vue"),
-            // },
-            // {
-            //     path: "privacy",
-            //     name: "Privacy",
-            //     component: () => import("@/views/PagePrivacy.vue"),
-            // },
-            // {
-            //     path: "terms-of-use",
-            //     name: "TermsOfUse",
-            //     component: () => import("@/views/PageTermsOfUse.vue"),
-            // }
+            {
+                path: "",
+                name: "Home",
+                component: () => import("@/views/PageHome.vue"),
+            },
+            {
+                path: "contact",
+                name: "Contact",
+                component: () => import("@/views/PageContact.vue"),
+            },
+            {
+                path: "privacy",
+                name: "Privacy",
+                component: () => import("@/views/PagePrivacy.vue"),
+            },
+            {
+                path: "terms-of-use",
+                name: "TermsOfUse",
+                component: () => import("@/views/PageTermsOfUse.vue"),
+            }
         ]
     },
 ];
