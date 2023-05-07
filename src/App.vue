@@ -27,4 +27,15 @@ export default {
 body
     font-family: 'Nunito', sans-serif
 
+.main
+    margin-top: 94px
+
+@media (max-width: 768px)
+    .main
+        margin-top: 62px
+
+@media (max-width: 576px)
+    .main
+        margin-top: 48px
+
 </style>

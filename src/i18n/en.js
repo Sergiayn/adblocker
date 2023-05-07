@@ -1,6 +1,12 @@
 const translate = {
     common: {},
-    header: {},
+    header: {
+        'features': 'Features',
+        'reviews': 'Reviews',
+        'our_products': 'Our products',
+        'subscribe': 'Subscribe',
+        'download':'Download'
+    },
     footer: {
         'title': 'Our Products',
         'brief': 'With this application you will tidy up your IPhone',

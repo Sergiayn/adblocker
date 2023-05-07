@@ -1,6 +1,12 @@
 const translate = {
     common: {},
-    header: {},
+    header: {
+        'features': 'Funciones',
+        'reviews': 'Reseñas',
+        'our_products': 'Nuestros productos',
+        'subscribe': 'Suscribirse',
+        'download':'Descargar'
+    },
     footer: {
         'title': 'Nuestros productos',
         'brief': 'Con esta aplicación podrás ordenar tu iPhone.',
