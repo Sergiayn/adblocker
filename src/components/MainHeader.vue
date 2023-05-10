@@ -21,8 +21,13 @@
                                   </li>
                                   <li>
                                       <router-link
-                                          :to="{name:'Home', params:{locale:$i18n.locale}, hash:'#block_reviews'}"
-                                          class="long-a">{{ $t("header.reviews") }}
+                                          :to="{name:'Home', params:{locale:$i18n.locale}, hash:'#block_advantages'}"
+                                          class="long-a">{{ $t("header.advantages") }}
+                                      </router-link>
+                                  </li>
+                                  <li>
+                                      <router-link :to="{name:'Home', params:{locale:$i18n.locale}, hash:'#block_subscribe'}">
+                                          {{ $t("header.subscribe") }}
                                       </router-link>
                                   </li>
                                   <li>
@@ -31,17 +36,12 @@
                                           {{ $t("header.our_products") }}
                                       </router-link>
                                   </li>
-                                  <li>
-                                      <router-link :to="{name:'Home', params:{locale:$i18n.locale}, hash:'#block_subscribe'}">
-                                          {{ $t("header.subscribe") }}
-                                      </router-link>
-                                  </li>
                                   <li><a href="https://apps.apple.com/us/app/adblocker-protection/id1587657245"
                                          class="download check_download_link">{{ $t("header.download") }}</a></li>
                               </ul>
                           </div>
                       </div>
-                      <div class="col-xl-1 col-lg-2 col-md-1">
+                      <div class="col-xl-1 col-lg-1 col-md-1">
                           <change-language></change-language>
                       </div>
                   </div>
@@ -77,18 +77,18 @@
                           </li>
                           <li @click="isOpenMobileMenu = false">
                               <router-link
-                                  :to="{name:'Home', params:{locale:$i18n.locale}, hash:'#block_reviews'}">
-                                  {{ $t("header.reviews") }}
+                                  :to="{name:'Home', params:{locale:$i18n.locale}, hash:'#block_advantages'}">
+                                  {{ $t("header.advantages") }}
+                              </router-link>
+                          </li>
+                          <li @click="isOpenMobileMenu = false">
+                              <router-link :to="{name:'Home', params:{locale:$i18n.locale}, hash:'#block_subscribe'}">
+                                  {{ $t("header.subscribe") }}
                               </router-link>
                           </li>
                           <li @click="isOpenMobileMenu = false">
                               <router-link :to="{name:'Home', params:{locale:$i18n.locale}, hash:'#block_our_products'}">
                                   {{ $t("header.our_products") }}
-                              </router-link>
-                          </li>
-                          <li v-if="false" @click="isOpenMobileMenu = false">
-                              <router-link :to="{name:'Home', params:{locale:$i18n.locale}, hash:'#block_subscribe'}">
-                                  {{ $t("header.subscribe") }}
                               </router-link>
                           </li>
                           <li><a href="https://apps.apple.com/us/app/adblocker-protection/id1587657245"

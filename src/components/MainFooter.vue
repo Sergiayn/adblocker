@@ -1,5 +1,5 @@
 <template>
-    <footer>
+    <footer id="block_our_products">
         <div class="container">
             <div class="footer-top">
                 <div class="desc">
@@ -90,6 +90,7 @@ footer
     font-weight: 500
     padding-left: 40px
     margin-bottom: 15px
+    text-decoration: none
 
   .brief
     font-size: 14px
@@ -118,6 +119,7 @@ footer
   padding-bottom: 20px
 
   .copyright
+    font-size: 12px
     text-align: left
 
   ul
@@ -154,9 +156,6 @@ footer
         font-size: 16px
 
     .footer-bottom
-        .copyright
-            font-size: 12px
-
         ul
             font-size: 10px
 

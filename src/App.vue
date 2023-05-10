@@ -30,6 +30,9 @@ body
 .main
     margin-top: 94px
 
+.bg-gray
+    background: linear-gradient(180deg, rgba(192, 192, 192, 0.3) 58.04%, rgba(223, 223, 223, 0) 90.14%)
+
 @media (max-width: 768px)
     .main
         margin-top: 62px
