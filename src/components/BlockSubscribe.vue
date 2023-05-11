@@ -5,10 +5,18 @@
                 <div class="title">{{ $t("block_subscribe.title") }}</div>
                 <div class="desc">{{ $t("block_subscribe.desc") }}</div>
                 <form @submit.prevent="subscribeUser">
-                    <input type="email" name="email" v-model="email" :placeholder='$t("block_subscribe.email")' required>
+                    <input type="email" name="email" v-model="email" :placeholder='$t("block_subscribe.email")'
+                           required>
                     <input type="submit" :value='$t("block_subscribe.subscribe")'>
                 </form>
-                <block-link-app :size_05="true"></block-link-app>
+                <ul class="social-network">
+                    <li><span>{{ $t("block_subscribe.follow_us") }}: </span></li>
+                    <li><a class="instagram" target="_blank"
+                           href="https://instagram.com/safari_ad_blocker?igshid=YmMyMTA2M2Y="></a></li>
+                    <li><a class="facebook" target="_blank"
+                           href="https://www.facebook.com/profile.php?id=100091587317887"></a></li>
+                    <li><a class="telegram" target="_blank" href="https://t.me/safari_adblocker"></a></li>
+                </ul>
             </div>
         </div>
     </div>
@@ -22,14 +30,12 @@
 </template>
 
 <script>
-import BlockLinkApp from "@/components/BlockLinkApp.vue"
 import {Modal} from 'usemodal-vue3'
 import {ref} from "vue";
 
 export default {
     name: "BlockSubscribe",
     components: {
-        BlockLinkApp,
         Modal
     },
     methods: {
@@ -63,12 +69,6 @@ export default {
 
 <style lang="sass">
 
-.block-subscribe
-  .link_app
-    margin: auto
-    max-width: 440px
-    text-align: center
-
 .block-subscribe-inner
   max-width: 810px
   margin: auto
@@ -84,8 +84,8 @@ export default {
     max-width: 730px
 
   .desc
-      font-size: 20px
-      margin: 0 auto
+    font-size: 20px
+    margin: 0 auto
 
   form
     margin: 24px auto 40px
@@ -93,7 +93,7 @@ export default {
   input[type="email"]
     border: 0.5px solid #D0D0D0
     border-radius: 8px
-    font-size: 22px
+    font-size: 17px
     margin-right: 30px
     padding: 8px 16px
     width: 350px
@@ -106,9 +106,43 @@ export default {
     border-radius: 8px
     color: white
     font-size: 16px
-    height: 48px
+    height: 43px
     padding: 8px
     width: 160px
+
+  .social-network
+    height: 40px
+    margin: 0
+    padding: 0
+
+    li
+      display: inline-block
+      padding: 0 8px
+      list-style: none
+      overflow: hidden
+
+      span
+        display: block
+        font-size: 20px
+        font-weight: 600
+        float: left
+        height: 100%
+        padding-bottom: 6px
+
+    a
+      background-size: 40px
+      display: block
+      height: 40px
+      width: 40px
+
+    .instagram
+      background-image: url("@/assets/img/social/instagram.png")
+
+    .facebook
+      background-image: url("@/assets/img/social/facebook.png")
+
+    .telegram
+      background-image: url("@/assets/img/social/telegram.png")
 
 .modalBlockSubscribe
   .modal-vue3-body
@@ -133,6 +167,7 @@ export default {
 @media (max-width: 991px)
   .block-subscribe-inner
     padding: 60px 0
+
     .title
       font-size: 24px
 
@@ -156,8 +191,10 @@ export default {
 
     .title
       font-size: 18px
+
     .desc
       font-size: 14px
+
     form
       margin: 24px auto 32px
       overflow: hidden
@@ -178,6 +215,7 @@ export default {
   .modalBlockSubscribe
     .modal-vue3-content
       max-width: 85%
+
     .modal-vue3-body
       .desc
         font-size: 22px

@@ -138,12 +138,12 @@ export default {
     background-image: url("@/assets/img/apple.svg")
     padding-left: 50px
     padding-top: 3px
-    text-align: center
 
     span
       display: block
       color: white
       font-weight: 500
+      text-align: left
 
     .row_1
       font-size: 14px
@@ -154,9 +154,13 @@ export default {
       line-height: 1.1
 
   &.isFooter
+    a
+      height: 27px
+      width: 94px
+
     .link_app_store
       background-position: 8px center
-      padding-left: 22px
+      padding-left: 27px
       padding-top: 3px
       text-align: center
 
@@ -170,6 +174,11 @@ export default {
       .row_2
         font-size: 11px
         line-height: 1.1
+    .link_app_store_qr
+      font-size: 10px
+      padding: 2px 1px
+      img
+        height: 80%
 
 .link_app_store_qr
   font-size: 21px

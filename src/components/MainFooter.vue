@@ -22,7 +22,7 @@
                         </div>
                     </div>
                     <div class="col-xl-2 col-lg-4 col-md-2 col-sm-12 col-xs-12">
-                        <div class="link_app"></div>
+                        <block-link-app :footer="true"></block-link-app>
                     </div>
                 </div>
             </div>
@@ -57,8 +57,12 @@
 </template>
 
 <script>
+import BlockLinkApp from "@/components/BlockLinkApp.vue";
 export default {
-    name: "MainFooter"
+    name: "MainFooter",
+    components: {
+        BlockLinkApp
+    }
 }
 </script>
 
@@ -113,6 +117,14 @@ footer
     padding: 4px 0 4px 30px
     width: 33.3%
 
+  .link_app
+    margin: 0 0 0 auto
+    width: 132px
+    a
+      margin-bottom: 12px
+      &:first-child
+        margin-right: 0
+
 .footer-bottom
   font-size: 14px
   text-align: center
@@ -139,6 +151,7 @@ footer
 
   a
     color: white
+    text-decoration: none
 
 @media (max-width: 1200px)
     .footer-middle
@@ -163,14 +176,20 @@ footer
     .footer-top
         font-size: 14px
 
-        .link_app a
-            display: none
-
     .footer-middle
         padding-bottom: 20px
 
         .list
             padding-bottom: 40px
+
+        .link_app
+            margin: auto
+            width: 200px
+            a
+                margin-bottom: 0
+                &:first-child
+                    margin-right: 10px
+
 
     .footer-bottom
         .copyright

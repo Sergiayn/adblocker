@@ -32,6 +32,7 @@ const translate = {
         desc: "Be the first to get the latest news about online privacy and ad blocking, AdBlocker product releases, and more.",
         email: "Email",
         subscribe: "Subscribe",
+        follow_us: "Follow us",
         modal_desc: "Thank you for subscribing to AdBlocker news!"
     },
 }
