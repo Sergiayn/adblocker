@@ -27,6 +27,31 @@ export default {
 body
     font-family: 'Nunito', sans-serif
 
+.icon
+    background-repeat: no-repeat
+    background-position: center center
+    background-size: 100%
+    display: inline-block
+    height: 24px
+    width: 24px
+
+.ic-star-yellow
+    background-image: url("@/assets/img/bg/star-yellow.png")
+
+.ic-star-gray
+    background-image: url("@/assets/img/bg/star-empty.png")
+
+.carousel__pagination
+    padding-left: 0
+.carousel .carousel__pagination-button::after
+    background: #262626
+    border-radius: 50%
+    height: 6px
+    opacity: .5
+    width: 6px
+.carousel .carousel__pagination-button--active::after
+    opacity: 1
+
 .main
     margin-top: 94px
 

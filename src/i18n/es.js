@@ -27,6 +27,13 @@ const translate = {
         privacy: "Política de privacidad",
         terms_of_use: "Condiciones de uso"
     },
+    block_review: {
+        title: 'Lo que la gente dice sobre nosotros',
+        comment_1: 'El servicio al cliente es increíble. Muy receptivos y serviciales.',
+        comment_2: 'Buen bloqueador',
+        comment_3: 'Me gusta mucho este bloqueador. ¡Funciona perfectamente!',
+        comment_4: '¡El bloqueador de anuncios de iOS más emocionante que he visto!',
+    },
     block_subscribe: {
         title: "Suscríbete a las noticias de AdBlocker",
         desc: "Sé el primero en recibir las últimas noticias sobre privacidad en línea y bloqueo de anuncios, lanzamientos de productos de AdBlocker y más.",
