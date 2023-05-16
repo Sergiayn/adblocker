@@ -27,6 +27,15 @@ const translate = {
         privacy: "Política de privacidad",
         terms_of_use: "Condiciones de uso"
     },
+    block_advantages: {
+        title:'Nuestras ventajas',
+        feature_1:'Valoración del usuario',
+        feature_2:'Bloqueo de anuncios',
+        feature_3:'Soporte de filtros',
+        feature_4:'Interfaz de usuario',
+        feature_5:'Funciones adicionales',
+        feature_6:'Reseñas',
+    },
     block_review: {
         title: 'Lo que la gente dice sobre nosotros',
         comment_1: 'El servicio al cliente es increíble. Muy receptivos y serviciales.',

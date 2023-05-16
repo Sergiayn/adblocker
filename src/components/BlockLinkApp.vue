@@ -123,7 +123,7 @@ export default {
       width: 132px
     .link_app_store
       background-position: 10px center
-      padding: 5px 2px 5px 25px
+      padding: 5px 2px 5px 35px
       .row_1
         font-size: 10px
         line-height: 1.3
@@ -232,13 +232,13 @@ export default {
 
     .link_app_store
       background-position: 10px center
-      padding-left: 30px
+      padding-left: 45px
 
       .row_1
-        font-size: 12px
+        font-size: 10px
 
       .row_2
-        font-size: 19px
+        font-size: 17px
 
 @media (max-width: 992px)
   .link_app_store_qr
@@ -261,7 +261,7 @@ export default {
 
     .link_app_store
       background-position: 6px center
-      padding-left: 25px
+      padding-left: 40px
       padding-top: 4px
 
       .row_1
@@ -288,7 +288,7 @@ export default {
 
     .link_app_store
       background-position: 10px center
-      padding-left: 20px
+      padding-left: 40px
       padding-top: 3px
 
       .row_1
@@ -304,7 +304,7 @@ export default {
           width: 94px
       .link_app_store
           background-position: 10px center
-          padding: 5px 2px 5px 25px
+          padding: 5px 2px 5px 30px
           .row_1
               font-size: 7px
           .row_2

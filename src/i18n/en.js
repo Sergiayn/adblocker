@@ -27,6 +27,15 @@ const translate = {
         privacy: "Privacy policy",
         terms_of_use: "Terms of use"
     },
+    block_advantages: {
+        title:'Our advantages',
+        feature_1:'User rating',
+        feature_2:'Ad blocking',
+        feature_3:'Filters support',
+        feature_4:'User interface',
+        feature_5:'Additional features',
+        feature_6:'Reviews',
+    },
     block_review: {
         title: 'What people say about us',
         comment_1: 'Customer service is amazing. very responsive and help fix any issues or concerns right away.',
