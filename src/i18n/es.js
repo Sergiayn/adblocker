@@ -27,6 +27,9 @@ const translate = {
         privacy: "Política de privacidad",
         terms_of_use: "Condiciones de uso"
     },
+    block_promo: {
+        desc: 'AdBlocker bloquea docenas de anuncios para acelerar tu navegación en Safari en tu iPhone. También puedes utilizar listas de filtros, como Bloquear anuncios, Bloquear rastreadores o Sitios para adultos. Bloquea los rastreadores de las redes sociales y básicamente limpia Safari para que tu experiencia de navegación sea más fluida.'
+    },
     block_advantages: {
         title:'Nuestras ventajas',
         feature_1:'Valoración del usuario',

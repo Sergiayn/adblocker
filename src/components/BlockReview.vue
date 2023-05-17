@@ -108,7 +108,7 @@ export default {
     .review-inner
         background: white
         border-radius: 8px
-        box-shadow: -4px 4px 11px rgba(31, 51, 39, 0.21)
+        box-shadow: 0 4px 8px rgba(236, 236, 236, 0.9)
         height: 150px
         margin: 15px
         padding: 16px

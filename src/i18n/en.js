@@ -27,6 +27,9 @@ const translate = {
         privacy: "Privacy policy",
         terms_of_use: "Terms of use"
     },
+    block_promo: {
+        desc: 'AdBlocker blocks dozens of ads to speed up your Safari browsing on your iPhone. You can also use filter lists, like Block Trackers, or Adult Sites. It blocks trackers from social media sites and basically cleans up Safari so your browsing experience is smoother.'
+    },
     block_advantages: {
         title:'Our advantages',
         feature_1:'User rating',

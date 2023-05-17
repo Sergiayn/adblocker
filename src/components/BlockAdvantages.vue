@@ -67,6 +67,8 @@ export default {
 </script>
 
 <style lang="sass">
+$border_color: #EBEBEB
+$border_radius: 8px
 .block-advantages
   .title
     font-size: 30px
@@ -75,26 +77,38 @@ export default {
     padding-top: 100px
     text-align: center
   table
+    border-collapse: separate
+    border-radius: $border_radius
     width: 100%
     td
-      border-right: 1px solid #EBEBEB
-      border-bottom: 1px solid #EBEBEB
-      padding: 20px 5px
+      border-right: 1px solid $border_color
+      border-bottom: 1px solid $border_color
+      padding: 20px 12px
       &:nth-child(1)
-        border-left: 1px solid #EBEBEB
+        border-left: 1px solid $border_color
+        border-right: 0
       &:nth-child(2)
         background-color: #EBF8F3
+        border-color: #EBF8F3
+        border-right: 0
         font-weight: 600
+      &:last-child
+          border-top-right-radius: $border_radius
   thead
     td
       background-color: #FAFAFA
+      border-top: 1px solid $border_color
+      border-bottom: 0
       font-size: 16px
       font-weight: 600
       text-align: center
       &:nth-child(1)
           background-color: white
           border-left: 0
+          border-top: 0
       &:nth-child(2)
+          border-top-left-radius: $border_radius
+          border-top: 0
           font-size: 20px
           .caption
               max-width: 140px
@@ -138,6 +152,15 @@ export default {
         background-color: rgba(243, 138, 14, 1)
     .mark_3 i
         background-color: rgba(30, 226, 13, 1)
+    tr:first-child
+        td:first-child
+            border-top: 1px solid $border_color
+            border-top-left-radius: $border_radius
+    tr:last-child
+        td:first-child
+            border-bottom-left-radius: $border_radius
+        td:last-child
+            border-bottom-right-radius: $border_radius
 
   .link_app
       margin: 40px auto 0

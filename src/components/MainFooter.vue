@@ -218,6 +218,8 @@ footer
 
         li
             width: 100%
+        .link_app
+            width: 205px
 
     .footer-bottom
         li:last-child
