@@ -1,8 +1,20 @@
 <script>
 import {defineComponent} from 'vue'
+import img_1_en from "@/assets/img/lang/en/promo/img_1.png"
+import img_2_en from "@/assets/img/lang/en/promo/img_2.png"
+import img_1_es from "@/assets/img/lang/es/promo/img_1.png"
+import img_2_es from "@/assets/img/lang/es/promo/img_2.png"
 
 export default defineComponent({
-    name: "BlockPromo"
+    name: "BlockPromo",
+    data() {
+      const bg = {
+        img_1: {en: img_1_en, es: img_1_es},
+        img_2: {en: img_2_en, es: img_2_es}
+      }
+
+      return {bg}
+    }
 })
 </script>
 
@@ -11,11 +23,15 @@ export default defineComponent({
         <div class="container">
             <div class="block-promo-inner">
                 <div class="row">
-                    <div class="col-12 col-xl-6 col-lg-6 col-sm-6">
+                    <div class="col-12 col-xl-6 col-lg-6 col-md-6 col-sm-12">
                         <div class="desc">{{ $t("block_promo.desc") }}</div>
                     </div>
-                    <div class="col-12 col-xl-6 col-lg-6 col-sm-6">
-                        <div class="img"></div>
+                    <div class="col-12 col-xl-6 col-lg-6 col-md-6 d-md-block d-sm-none">
+                        <div :style="{ backgroundImage:
+                        'url(' + bg.img_1[$i18n.locale] + '), ' +
+                        'url(' + bg.img_2[$i18n.locale] + ')'
+                        }"
+                            class="img"></div>
                     </div>
                 </div>
             </div>
@@ -43,8 +59,7 @@ export default defineComponent({
 
   .img
     background-repeat: no-repeat
-    background-image: url("@/assets/img/bg/promo_img_1.png"), url("@/assets/img/bg/promo_img_2.png")
-    background-size: 39%, 55%
+    background-size: 38%, 55%
     background-position: left center, 62% bottom
     height: 480px
     width: 100%
@@ -52,6 +67,11 @@ export default defineComponent({
 @media (min-width: 1200px)
   .block-promo
     background-image: url("@/assets/img/bg/promo_main_bg_xl.png")
+
+@media (max-width: 1400px)
+    .block-promo
+        .img
+            background-position: left center, 62% 86%
 
 @media (max-width: 1200px)
   .block-promo
@@ -67,6 +87,8 @@ export default defineComponent({
 @media (max-width: 992px)
   .block-promo
     background-image: url("@/assets/img/bg/promo_main_bg_md.png")
+    .desc
+      font-size: 16px
 
     .img
       background-position: left center, 60% 75%
@@ -75,6 +97,8 @@ export default defineComponent({
 @media (max-width: 768px)
   .block-promo
     background-image: url("@/assets/img/bg/promo_main_bg_sm.png")
+    .desc
+      font-size: 14px
 
     .img
       background-position: left center, 60% 70%

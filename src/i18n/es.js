@@ -12,13 +12,10 @@ const translate = {
         download:'Descargar'
     },
     footer: {
-        title: 'Nuestros productos',
-        brief: 'Con esta aplicación podrás ordenar tu iPhone.',
-        icon_1: 'Ver detalles de la memoria del teléfono',
-        icon_2: 'Comprime fotos y vídeos',
-        icon_3: 'Limpia contactos',
-        icon_4: 'Limpia eventos del calendario',
-        icon_5: 'Limpia fotos/videos',
+        title_1: 'Acerca de AdBlocker',
+        title_2: 'Nuestros productos',
+        title_3: 'Información',
+        brief: 'La aplicación Ad Blocker bloquea los anuncios intrusivos, brindando a los usuarios una experiencia de navegación fluida y sin publicidad en sus dispositivos móviles.',
         copyright: 'Hecho con amor por el equipo de Yavorsky. Todos los derechos reservados.'
     },
     menu: {

@@ -12,13 +12,10 @@ const translate = {
         download:'Download'
     },
     footer: {
-        title: 'Our Products',
-        brief: 'With this application you will tidy up your IPhone',
-        icon_1: 'Track phone memory details;',
-        icon_2: 'Compresses photos/videos',
-        icon_3: 'Cleans contacts',
-        icon_4: 'Cleans events in calendar',
-        icon_5: 'Cleans photos/videos',
+        title_1: 'About AdBlocker',
+        title_2: 'Our Products',
+        title_3: 'Information',
+        brief: 'The Ad Blocker app blocks intrusive advertisements, providing users with a seamless and ad-free browsing experience on their mobile devices.',
         copyright: 'Made with love by Yavorsky Team. All Rights Reserved.'
     },
     menu: {
