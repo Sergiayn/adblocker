@@ -24,6 +24,29 @@ const translate = {
         privacy: "Política de privacidad",
         terms_of_use: "Condiciones de uso"
     },
+    block_home_banner: {
+        title: '¡Di adiós a los anuncios molestos con AdBlocker!',
+        desc: '¡El bloqueador de anuncios para iOS en el navegador Safari!'
+    },
+    block_feature: {
+        feature_title_1:'¡Sin ventanas emergentes!',
+        feature_title_2:'¡Adiós publicidad intrusiva!',
+        feature_title_3:'Crea una "lista blanca".',
+        feature_title_4:'Bloquea sitios para adultos.',
+        feature_brief_1:'Con esta aplicación olvidarás las ventanas emergentes que son tan molestas.',
+        feature_brief_2:'Usa Internet sin publicidad que te acechará en cada paso.',
+        feature_brief_3:'Con la ayuda de dicha lista, comprenderás dónde seré menos efectivo en el bloqueo, y podrás ver anuncios en tales sitios.',
+        feature_brief_4:'Esta función tiene beneficios ilimitados, especialmente para tus hijos que utilizan el espacio de Internet. Mantén la calma: no verán sitios para mayores de 18 años.',
+        part_2_title: 'Lo que hemos creado',
+        part_2_desc_left: 'Hemos desarrollado este producto para garantizar la calidad del filtrado del contenido web, dejando poco uso de los recursos del dispositivo. \n' +
+            '<br>\nAdBlocker: seguro y fácil de usar.',
+        part_2_desc_right_1_title: 'Protección de privacidad.',
+        part_2_desc_right_1_brief: 'Muchos usuarios no desean proporcionar sus datos para la análisis web de los sitios que visitan. AdBlock protegerá sus datos personales de la vigilancia y el análisis web.',
+        part_2_desc_right_2_title: 'Diseño minimalista.',
+        part_2_desc_right_2_brief: 'La aplicación es sencilla e intuitiva, todas las configuraciones están disponibles en la sección de menú. No hay opciones ocultas para buscar.',
+        part_2_desc_right_3_title: 'Y un aspecto muy importante: está disponible en color oscuro.',
+        part_2_desc_right_3_brief: 'Todos los usuarios que hayan cambiado la configuración de su teléfono a un tema oscuro durante mucho tiempo lo apreciarán definitivamente.',
+    },
     block_promo: {
         desc: 'AdBlocker bloquea docenas de anuncios para acelerar tu navegación en Safari en tu iPhone. También puedes utilizar listas de filtros, como Bloquear anuncios, Bloquear rastreadores o Sitios para adultos. Bloquea los rastreadores de las redes sociales y básicamente limpia Safari para que tu experiencia de navegación sea más fluida.'
     },
