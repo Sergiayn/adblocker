@@ -77,6 +77,18 @@ const translate = {
     page_contact: {
         title: "¡Nos encantaría saber de ti!",
         desc: "Ya sea que tenga una pregunta sobre las funciones, la versión de prueba, el precio o cualquier otra cosa, nuestro equipo está listo para responder todas sus preguntas."
+    },
+    page_terms_of_use: {
+        line_1: 'Puede suscribirse a una cuenta premium sin límites y sin anuncios.',
+        line_2: 'La suscripción es de $5.99 al mes después de una prueba gratuita de 14 días.',
+        line_3: 'Puede suscribirse a una cuenta premium sin límites y sin anuncios.',
+        line_4: 'Todos los precios están sujetos a cambios sin previo aviso. Ocasionalmente, ofrecemos precios promocionales como incentivos u oportunidades de tiempo limitado para compras elegibles realizadas durante el período de tiempo promocional. Debido a la naturaleza temporal y promocional de estos eventos, no podemos ofrecer protección de precios o descuentos o reembolsos retroactivos por compras anteriores en caso de una reducción de precio o una oferta promocional.',
+        line_5: 'El pago se cargará a la cuenta de iTunes al confirmar la compra.',
+        line_6: 'La suscripción se renovará automáticamente a menos que la renovación automática se desactive al menos 24 horas antes del final del período actual.',
+        line_7: 'La cuenta se cobrará por la renovación dentro de las 24 horas anteriores al final del período actual e identificará el costo de la renovación.',
+        line_8: 'Las suscripciones pueden ser administradas por el usuario y la renovación automática puede desactivarse yendo a la Configuración de la cuenta de iTunes del usuario después de la compra.',
+        line_9: 'No se permite la cancelación de la suscripción actual durante el período de suscripción activo.',
+        line_10: 'Puede desactivar la renovación automática de su suscripción a través de la Configuración de la cuenta de iTunes. Sin embargo, no podrá cancelar la suscripción actual durante su período activo.',
     }
 }
 export default translate
