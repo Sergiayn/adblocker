@@ -74,5 +74,9 @@ const translate = {
         follow_us: "Follow us",
         modal_desc: "Thank you for subscribing to AdBlocker news!"
     },
+    page_contact: {
+        title: "We`d love to hear from you!",
+        desc: "Whether you have a question about features, trial, pricing, or anything else, our team is ready to answer all your questions."
+    }
 }
 export default translate
