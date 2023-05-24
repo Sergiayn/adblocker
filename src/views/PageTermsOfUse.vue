@@ -6,7 +6,7 @@
         <ul class="content">
           <li>{{ $t("page_terms_of_use.line_1") }}</li>
           <li>{{ $t("page_terms_of_use.line_2") }}</li>
-          <li>{{ $t("page_terms_of_use.line_3") }}</li>
+<!--          <li>{{ $t("page_terms_of_use.line_3") }}</li>-->
           <li>{{ $t("page_terms_of_use.line_4") }}</li>
           <li>{{ $t("page_terms_of_use.line_5") }}</li>
           <li>{{ $t("page_terms_of_use.line_6") }}</li>
