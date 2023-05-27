@@ -97,6 +97,7 @@ export default defineComponent({
                     <div class="right">
                       <p v-for="slide in slides" :key="slide.id">
                         <strong>{{ $t("block_feature.part_2_desc_right_" + slide.id + "_title") }}</strong>
+                        &nbsp;
                         <span>{{ $t("block_feature.part_2_desc_right_" + slide.id + "_brief") }}</span>
                       </p>
                     </div>
@@ -204,7 +205,7 @@ export default defineComponent({
       .left, .right
         flex: 100%
         margin: auto
-        text-align: justify
+        text-align: left
 
       .left
         max-width: 370px

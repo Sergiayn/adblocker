@@ -49,6 +49,8 @@ export default defineComponent({
   background-size: 230px
   color: white
   padding: 205px 0 250px
+  max-width: 1116px
+  margin: auto
 
   h2
     font-family: 'Open Sans', sans-serif

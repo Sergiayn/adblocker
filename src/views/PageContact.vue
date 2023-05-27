@@ -29,7 +29,7 @@ export default {
 
 <style scoped lang="sass">
 .block-contact
-  padding: 170px 0 100px
+  padding: 80px 0 100px
 
 .block-contact-inner
   margin: auto

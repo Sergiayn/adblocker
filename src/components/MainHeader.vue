@@ -4,13 +4,13 @@
           <div class="container">
               <div v-if="screenWidth > 768" class="header-desktop">
                   <div class="row">
-                      <div class="col-xl-3 col-lg-3 col-md-3">
+                      <div class="col-xxl-4 col-xl-3 col-lg-3 col-md-3">
                           <router-link :to="{name:'Home', params:{locale:$i18n.locale}}" class="logo">
                               <img src="@/assets/img/logo.png" class="img-fluid" alt="AdBlocker">
                               <span>AdBlocker</span>
                           </router-link>
                       </div>
-                      <div class="col-lg-8 col-md-8">
+                      <div class="col-xxl-7 col-xl-8 col-lg-8 col-md-8">
                           <div class="top-menu">
                               <ul>
                                   <li>

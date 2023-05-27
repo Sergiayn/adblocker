@@ -1,44 +1,46 @@
 <template>
   <div class="block-privacy-middle">
     <div class="container">
-      <h1 class="text-center page-title">{{ $t("menu.privacy") }}</h1>
-      <div>
-        <div class="rubric">{{ $t("page_privacy.rubric_1") }}</div>
-        <div class="rubric">{{ $t("page_privacy.rubric_2") }}</div>
+      <div class="block-privacy-middle-inner">
+        <h1 class="text-center page-title">{{ $t("menu.privacy") }}</h1>
+        <div>
+          <div class="rubric">{{ $t("page_privacy.rubric_1") }}</div>
+          <div class="rubric">{{ $t("page_privacy.rubric_2") }}</div>
+        </div>
+        <div class="rubric" v-html='$t("page_privacy.rubric_3")'></div>
+        <div class="title">{{ $t("page_privacy.title_1") }}</div>
+
+        <div class="rubric" v-html='$t("page_privacy.rubric_4")'></div>
+        <div class="title">{{ $t("page_privacy.title_2") }}</div>
+        <div class="rubric" v-html='$t("page_privacy.rubric_5")'></div>
+        <div class="rubric" v-html='$t("page_privacy.rubric_6")'></div>
+        <div class="rubric" v-html='$t("page_privacy.rubric_7")'></div>
+        <div class="rubric" v-html='$t("page_privacy.rubric_8")'></div>
+
+        <div class="title title-2">{{ $t("page_privacy.title_3") }}</div>
+        <div class="rubric" v-html='$t("page_privacy.rubric_9")'></div>
+        <div class="rubric" v-html='$t("page_privacy.rubric_10")'></div>
+        <div class="rubric" v-html='$t("page_privacy.rubric_11")'></div>
+        <div class="rubric" v-html='$t("page_privacy.rubric_12")'></div>
+
+        <div class="title">{{ $t("page_privacy.title_4") }}</div>
+        <div class="rubric" v-html='$t("page_privacy.rubric_13")'></div>
+        <div class="rubric" v-html='$t("page_privacy.rubric_14")'></div>
+        <div class="rubric" v-html='$t("page_privacy.rubric_15")'></div>
+        <div class="rubric" v-html='$t("page_privacy.rubric_16")'></div>
+        <div class="rubric" v-html='$t("page_privacy.rubric_17")'></div>
+        <div class="rubric" v-html='$t("page_privacy.rubric_18")'></div>
+
+        <div class="title">{{ $t("page_privacy.title_5") }}</div>
+        <div class="rubric" v-html='$t("page_privacy.rubric_19")'></div>
+
+        <div class="title">{{ $t("page_privacy.title_6") }}</div>
+        <div class="rubric" v-html='$t("page_privacy.rubric_20")'></div>
+
+        <div class="title">{{ $t("page_privacy.title_7") }}</div>
+        <div class="rubric" v-html='$t("page_privacy.rubric_21")'></div>
+        <div class="rubric" v-html='$t("page_privacy.rubric_22")'></div>
       </div>
-      <div class="rubric" v-html='$t("page_privacy.rubric_3")'></div>
-      <div class="title">{{ $t("page_privacy.title_1") }}</div>
-
-      <div class="rubric" v-html='$t("page_privacy.rubric_4")'></div>
-      <div class="title">{{ $t("page_privacy.title_2") }}</div>
-      <div class="rubric" v-html='$t("page_privacy.rubric_5")'></div>
-      <div class="rubric" v-html='$t("page_privacy.rubric_6")'></div>
-      <div class="rubric" v-html='$t("page_privacy.rubric_7")'></div>
-      <div class="rubric" v-html='$t("page_privacy.rubric_8")'></div>
-
-      <div class="title title-2">{{ $t("page_privacy.title_3") }}</div>
-      <div class="rubric" v-html='$t("page_privacy.rubric_9")'></div>
-      <div class="rubric" v-html='$t("page_privacy.rubric_10")'></div>
-      <div class="rubric" v-html='$t("page_privacy.rubric_11")'></div>
-      <div class="rubric" v-html='$t("page_privacy.rubric_12")'></div>
-
-      <div class="title">{{ $t("page_privacy.title_4") }}</div>
-      <div class="rubric" v-html='$t("page_privacy.rubric_13")'></div>
-      <div class="rubric" v-html='$t("page_privacy.rubric_14")'></div>
-      <div class="rubric" v-html='$t("page_privacy.rubric_15")'></div>
-      <div class="rubric" v-html='$t("page_privacy.rubric_16")'></div>
-      <div class="rubric" v-html='$t("page_privacy.rubric_17")'></div>
-      <div class="rubric" v-html='$t("page_privacy.rubric_18")'></div>
-
-      <div class="title">{{ $t("page_privacy.title_5") }}</div>
-      <div class="rubric" v-html='$t("page_privacy.rubric_19")'></div>
-
-      <div class="title">{{ $t("page_privacy.title_6") }}</div>
-      <div class="rubric" v-html='$t("page_privacy.rubric_20")'></div>
-
-      <div class="title">{{ $t("page_privacy.title_7") }}</div>
-      <div class="rubric" v-html='$t("page_privacy.rubric_21")'></div>
-      <div class="rubric" v-html='$t("page_privacy.rubric_22")'></div>
     </div>
   </div>
 </template>
@@ -50,6 +52,9 @@ export default {
 </script>
 
 <style scoped lang="sass">
+.block-privacy-middle-inner
+  max-width: 1116px
+  margin: auto
 .block-privacy-middle
   font-size: 17px
   padding: 50px 0 24px

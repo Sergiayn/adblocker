@@ -74,6 +74,11 @@ const translate = {
         follow_us: "Síguenos",
         modal_desc: "¡Gracias por suscribirse a las noticias de AdBlocker!"
     },
+    block_cookie: {
+        title: 'Valoramos tu privacidad',
+        brief: 'Usamos cookies para brindarle la mejor experiencia de navegación, mostrar anuncios o contenido personalizados y analizar nuestro tráfico. Al hacer clic en "Aceptar todas las cookies", acepta nuestro uso de cookies.',
+        btn: 'Aceptar todas las cookies'
+    },
     page_contact: {
         title: "¡Nos encantaría saber de ti!",
         desc: "Ya sea que tenga una pregunta sobre las funciones, la versión de prueba, el precio o cualquier otra cosa, nuestro equipo está listo para responder todas sus preguntas."

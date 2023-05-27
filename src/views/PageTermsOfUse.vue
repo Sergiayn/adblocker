@@ -1,7 +1,7 @@
 <template>
   <div class="block-terms-of-use">
     <div class="container">
-      <div class="">
+      <div class="block-terms-of-use-inner">
         <h1 class="text-center page-title">{{ $t("menu.terms_of_use") }}</h1>
         <ul class="content">
           <li>{{ $t("page_terms_of_use.line_1") }}</li>
@@ -27,6 +27,10 @@ export default {
 </script>
 
 <style scoped lang="sass">
+.block-terms-of-use-inner
+  max-width: 1116px
+  margin: auto
+
 .block-terms-of-use
   font-size: 17px
   padding-top: 50px
