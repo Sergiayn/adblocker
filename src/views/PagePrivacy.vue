@@ -1,7 +1,7 @@
 <template>
   <div class="block-privacy-middle">
     <div class="container">
-      <div class="block-privacy-middle-inner">
+      <div class="block-privacy-middle-inner xl-size">
         <h1 class="text-center page-title">{{ $t("menu.privacy") }}</h1>
         <div>
           <div class="rubric">{{ $t("page_privacy.rubric_1") }}</div>
@@ -52,9 +52,6 @@ export default {
 </script>
 
 <style scoped lang="sass">
-.block-privacy-middle-inner
-  max-width: 1116px
-  margin: auto
 .block-privacy-middle
   font-size: 17px
   padding: 50px 0 24px

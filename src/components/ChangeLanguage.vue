@@ -109,6 +109,7 @@ export default {
 <style scoped lang="sass">
 .change-language
   max-width: 85px
+  width: 80px
 
   .tooltip-lang_label
     overflow: hidden

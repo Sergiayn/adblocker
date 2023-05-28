@@ -1,7 +1,7 @@
 <template>
   <div class="block-review" id="block-review">
       <div class="container">
-          <div class="block-review-inner">
+          <div class="block-review-inner xl-size">
               <div class="title">{{ $t("block_review.title") }}</div>
               <div class="reviews-desktop" v-if="screenWidth > 576">
                   <div class="review" v-for="(item, index) in items" :key="index">
@@ -112,6 +112,10 @@ export default {
         height: 150px
         margin: 15px
         padding: 16px
+        &:nth-child(1), &:nth-child(3)
+          margin-left: 0
+        &:nth-child(2), &:nth-child(4)
+          margin-right: 0
 
     .name
         font-size: 17px
@@ -179,6 +183,9 @@ export default {
             background: #FFFFFF
             box-shadow: 0 4px 8px rgba(236, 236, 236, 0.9)
             border-radius: 8px
+            height: 110px
+            margin-top: 5px
+            margin-bottom: 5px
             padding: 8px 16px
             width: 98%
 

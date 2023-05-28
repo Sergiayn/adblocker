@@ -76,8 +76,19 @@ const translate = {
     },
     block_cookie: {
         title: 'Valoramos tu privacidad',
-        brief: 'Usamos cookies para brindarle la mejor experiencia de navegación, mostrar anuncios o contenido personalizados y analizar nuestro tráfico. Al hacer clic en "Aceptar todas las cookies", acepta nuestro uso de cookies.',
-        btn: 'Aceptar todas las cookies'
+        brief: 'Utilizamos cookies para brindarte la mejor experiencia de navegación, ofrecerte anuncios o contenido personalizado y analizar nuestro tráfico. Al hacer clic en "Aceptar todas las cookies", das tu consentimiento para nuestro uso de cookies.',
+        btn: 'Aceptar cookies'
+    },
+    block_countdown: {
+        days: 'Días',
+        hours: 'Horas',
+        minutes: 'Minutos',
+        seconds: 'Segundos',
+        title: '¡Oferta especial!',
+        desc: 'Precio reducido para el Plan Premium',
+        brief_1: 'Obtén una prueba GRATUITA de',
+        brief_2: '14 días',
+        btn: 'Obtener ahora'
     },
     page_contact: {
         title: "¡Nos encantaría saber de ti!",

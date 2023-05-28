@@ -57,7 +57,7 @@ export default defineComponent({
   <div class="block-features" id="block_features">
     <div class="part_1">
       <div class="container">
-        <div class="block-features-inner">
+        <div class="block-features-inner xl-size">
           <div class="feature-list">
             <ul>
               <li v-for="feature in features" :key="feature.id">
@@ -74,7 +74,7 @@ export default defineComponent({
     </div>
     <div class="part_2">
       <div class="container">
-        <div class="block-features-inner">
+        <div class="block-features-inner xl-size">
           <div class="title-block">{{ $t("block_feature.part_2_title") }}</div>
           <div v-if="screenWidth > 576">
             <div class="row">
@@ -192,23 +192,21 @@ export default defineComponent({
     .desc
       height: 100%
 
+    .img
+      padding: 40px 0
+
     .desc-inner
       align-items: center
       display: flex
       flex-wrap: wrap
       height: 100%
-
-    .img
-      padding: 40px 0
-
-    .desc-inner
       .left, .right
         flex: 100%
         margin: auto
         text-align: left
 
       .left
-        max-width: 370px
+        max-width: 430px
 
         p
           margin-bottom: 30px
@@ -295,7 +293,7 @@ export default defineComponent({
       min-height: 128px
 
     .img
-      padding: 30px 0 50px
+      padding: 30px 0 0
 
       img
         margin: auto

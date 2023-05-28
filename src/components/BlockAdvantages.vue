@@ -1,7 +1,7 @@
 <template>
   <div class="block-advantages" id="block_advantages">
       <div class="container">
-          <div class="block-advantages-inner">
+          <div class="block-advantages-inner xl-size">
               <div class="title">{{ $t("block_advantages.title") }}</div>
               <table>
                   <thead>
@@ -92,8 +92,6 @@ $border_radius: 8px
         border-color: #EBF8F3
         border-right: 0
         font-weight: 600
-      &:last-child
-          border-top-right-radius: $border_radius
   thead
     td
       background-color: #FAFAFA
@@ -112,6 +110,8 @@ $border_radius: 8px
           font-size: 20px
           .caption
               max-width: 140px
+      &:last-child
+        border-top-right-radius: $border_radius
     .caption
       max-width: 115px
       margin: auto
@@ -227,5 +227,16 @@ $border_radius: 8px
                     width: 8px
         .link_app
             width: 210px
+
+@media (max-width: 400px)
+  .block-advantages
+    tbody
+      td
+        padding: 8px
+
+@media (max-width: 300px)
+  .block-advantages
+      overflow-x: scroll
+
 
 </style>

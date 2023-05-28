@@ -79,6 +79,17 @@ const translate = {
         brief: 'We use cookies to deliver you the best browsing experience, serve personalized ads or content, and analyze our traffic. By clicking "Accept all cookies", you consent to our use of cookies.',
         btn: 'Accept all cookies'
     },
+    block_countdown: {
+        days: 'Days',
+        hours: 'Hours',
+        minutes: 'Minutes',
+        seconds: 'Seconds',
+        title: 'Special offer!',
+        desc: 'Reduced price for Premium Plan',
+        brief_1:'Download the app and get a',
+        brief_2:'14-day FREE trial!',
+        btn: 'Get now'
+    },
     page_contact: {
         title: "We`d love to hear from you!",
         desc: "Whether you have a question about features, trial, pricing, or anything else, our team is ready to answer all your questions."

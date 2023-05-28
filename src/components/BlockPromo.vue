@@ -21,7 +21,7 @@ export default defineComponent({
 <template>
     <div class="block-promo" id="block_promo">
         <div class="container">
-            <div class="block-promo-inner">
+            <div class="block-promo-inner xl-size">
                 <div class="row">
                     <div class="col-12 col-xl-6 col-lg-6 col-md-6 col-sm-12">
                         <div class="desc">{{ $t("block_promo.desc") }}</div>
@@ -50,17 +50,17 @@ export default defineComponent({
     align-items: center
     display: flex
     font-size: 22px
-    margin: auto
-    max-width: 370px
+    margin: 0 auto 0 0
+    max-width: 430px
     height: 100%
     justify-content: center
     padding: 0 10px
-    text-align: justify
+    text-align: inherit
 
   .img
     background-repeat: no-repeat
     background-size: 38%, 55%
-    background-position: left center, 62% bottom
+    background-position: left center, 62% 86%
     height: 480px
     width: 100%
 

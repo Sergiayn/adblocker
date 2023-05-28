@@ -12,7 +12,7 @@
                 <ul class="social-network">
                     <li><span>{{ $t("block_subscribe.follow_us") }}: </span></li>
                     <li><a class="instagram" target="_blank"
-                           href="https://instagram.com/safari_ad_blocker?igshid=YmMyMTA2M2Y="></a></li>
+                           href="https://instagram.com/safari_ad_blocker"></a></li>
                     <li><a class="facebook" target="_blank"
                            href="https://www.facebook.com/profile.php?id=100091587317887"></a></li>
                     <li><a class="telegram" target="_blank" href="https://t.me/safari_adblocker"></a></li>
@@ -117,9 +117,11 @@ export default {
 
     li
       display: inline-block
-      padding: 0 8px
+      padding: 0 4px
       list-style: none
       overflow: hidden
+      &:first-child
+        padding-right: 8px
 
       span
         display: block
@@ -206,6 +208,9 @@ export default {
 
     .submit
       float: right
+
+    .social-network li span
+      font-size: 18px
 
     .modal-vue3-body
       .desc

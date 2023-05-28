@@ -25,7 +25,7 @@ export default defineComponent({
     <div class="main-top-bg">
       <div class="container">
         <div :style="{ backgroundImage: 'url(' + bg.banner_iphone[$i18n.locale] + ')' }"
-            class="banner">
+            class="banner xl-size">
           <h2>{{ $t("block_home_banner.title") }}</h2>
           <h4>{{ $t("block_home_banner.desc") }}</h4>
           <block-link-app></block-link-app>
@@ -49,8 +49,6 @@ export default defineComponent({
   background-size: 230px
   color: white
   padding: 205px 0 250px
-  max-width: 1116px
-  margin: auto
 
   h2
     font-family: 'Open Sans', sans-serif

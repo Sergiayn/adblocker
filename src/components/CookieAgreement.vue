@@ -31,6 +31,7 @@ export default {
         isVisible
       };
   },
+  inject: ['emitter'],
   mounted() {
     if ("1" !== this.cookies.get("coolie_is_accept"))
       this.isVisible = true
@@ -39,6 +40,7 @@ export default {
     closeModal() {
       this.isVisible = false
       this.cookies.set("coolie_is_accept", "1", '365d')
+      this.emitter.emit('blockCountDown')
     }
   }
 }
@@ -79,5 +81,10 @@ export default {
     background: #0E523A
     border-color: transparent
     border-radius: 8px
+
+@media (max-width: 768px)
+  .blockCookieAgreement
+    .controls
+      margin-top: 16px
 
 </style>

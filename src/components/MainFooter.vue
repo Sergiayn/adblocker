@@ -1,7 +1,7 @@
 <template>
     <footer id="block_our_products">
         <div class="container">
-            <div class="footer-middle">
+            <div class="footer-middle xl-size">
                 <div class="brief-part" v-if="screenWidth > 767">
                     <div class="title">{{ $t("footer.title_1") }}</div>
                     <div class="brief">{{ $t("footer.brief") }}</div>
@@ -43,7 +43,7 @@
                     <div class="brief">{{ $t("footer.brief") }}</div>
                 </div>
             </div>
-            <div class="footer-bottom">
+            <div class="footer-bottom xl-size">
                 <div class="copyright">{{ $t("footer.copyright") }}</div>
             </div>
         </div>

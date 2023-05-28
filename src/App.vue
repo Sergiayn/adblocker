@@ -5,17 +5,20 @@
     </div>
     <main-footer></main-footer>
     <cookie-agreement></cookie-agreement>
+    <count-down @block-count-down="open_modal"></count-down>
 </template>
 
 <script>
-import CookieAgreement from "@/components/CookieAgreement.vue";
-import MainFooter from "@/components/MainFooter.vue";
-import MainHeader from "@/components/MainHeader.vue";
-import {RouterView} from "vue-router";
+import CookieAgreement from "@/components/CookieAgreement"
+import CountDown from "@/components/BlockCountDown"
+import MainFooter from "@/components/MainFooter"
+import MainHeader from "@/components/MainHeader"
+import {RouterView} from "vue-router"
 export default {
   name: 'App',
   components: {
       CookieAgreement,
+      CountDown,
       MainFooter,
       MainHeader,
       RouterView
@@ -57,6 +60,10 @@ body
 
 .bg-gray
     background: linear-gradient(180deg, rgba(192, 192, 192, 0.3) 58.04%, rgba(223, 223, 223, 0) 90.14%)
+
+.xl-size
+  max-width: 1116px
+  margin: auto
 
 @media (max-width: 768px)
     .main

@@ -2,15 +2,15 @@
   <header>
       <div class="header-bg">
           <div class="container">
-              <div v-if="screenWidth > 768" class="header-desktop">
+              <div v-if="screenWidth > 768" class="header-desktop xl-size">
                   <div class="row">
-                      <div class="col-xxl-4 col-xl-3 col-lg-3 col-md-3">
+                      <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3">
                           <router-link :to="{name:'Home', params:{locale:$i18n.locale}}" class="logo">
                               <img src="@/assets/img/logo.png" class="img-fluid" alt="AdBlocker">
                               <span>AdBlocker</span>
                           </router-link>
                       </div>
-                      <div class="col-xxl-7 col-xl-8 col-lg-8 col-md-8">
+                      <div class="col-xxl-8 col-xl-8 col-lg-8 col-md-8">
                           <div class="top-menu">
                               <ul>
                                   <li>
@@ -46,7 +46,7 @@
                       </div>
                   </div>
               </div>
-              <div v-else class="header-mobile">
+              <div v-else class="header-mobile xl-size">
                   <router-link class="logo" :to="{name:'Home', params:{locale:$i18n.locale}}">
                       <img src="@/assets/img/logo.png" class="img-fluid" alt="AdBlocker">
                       <span>AdBlocker</span>
@@ -261,8 +261,6 @@ header
                 padding: 11px
         .change-language
             position: fixed
-            .tooltip-lang_icon
-                display: none
             .tooltip-lang_content
                 margin-left: -42px
 
