@@ -99,6 +99,7 @@ export default defineComponent({
     background-image: url("@/assets/img/bg/promo_main_bg_sm.png")
     .desc
       font-size: 14px
+      margin: 0 auto 0
 
     .img
       background-position: left center, 60% 70%

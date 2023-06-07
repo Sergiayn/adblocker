@@ -249,6 +249,9 @@ export default defineComponent({
   .block-features-inner > .title-block
     font-size: 26px
 
+  .block-features
+    margin-bottom: 10px
+
   .block-features .part_1
     .title-block
       font-size: 22px

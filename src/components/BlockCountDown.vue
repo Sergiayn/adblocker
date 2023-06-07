@@ -109,7 +109,8 @@ export default defineComponent({
           />
           <div class="brief"><span>{{ $t("block_countdown.brief_1") }}</span> <strong>{{ $t("block_countdown.brief_2") }}</strong></div>
           <div class="controls">
-            <a href="https://apps.apple.com/US/app/id1587657245?mt=8" class="btn btn-danger">
+            <a href="https://apps.apple.com/US/app/id1587657245?mt=8"
+               class="btn btn-danger" @click="closePopUp">
               {{ $t("block_countdown.btn") }}
             </a>
           </div>

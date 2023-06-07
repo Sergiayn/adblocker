@@ -177,6 +177,7 @@ $border_radius: 8px
         .title
             font-size: 26px
             padding-bottom: 32px
+            padding-top: 40px
         thead
             td
                 font-size: 12px
