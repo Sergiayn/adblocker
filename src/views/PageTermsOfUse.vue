@@ -42,12 +42,22 @@ export default {
   font-weight: 600
   margin-bottom: 40px
 
+@media (max-width: 1200px)
+  .block-terms-of-use
+    font-size: 18px
+
 @media (max-width: 768px)
   .block-terms-of-use
     font-size: 16px
+    padding-top: 100px
+    .page-title
+      font-size: 26px
 
 @media (max-width: 575px)
   .block-terms-of-use
     font-size: 15px
+    padding-top: 60px
+    .page-title
+      font-size: 18px
 
 </style>

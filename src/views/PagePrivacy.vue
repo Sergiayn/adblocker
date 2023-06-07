@@ -91,9 +91,6 @@ export default {
     font-size: 18px
 
 @media (max-width: 1200px)
-  .block-terms-of-use
-    font-size: 18px
-
   .block-privacy-top
     padding: 12px 0
 
@@ -113,9 +110,6 @@ export default {
 
 @media (max-width: 768px)
   .block-privacy-middle
-    padding-top: 100px
-
-  .block-terms-of-use
     padding-top: 100px
 
     .page-title
@@ -138,13 +132,10 @@ export default {
   .block-privacy-middle .custom-font-size
     font-size: 14px
 
-  .block-terms-of-use .page-title, .block-privacy-middle .page-title
+  .block-privacy-middle .page-title
     font-size: 18px
 
-  .block-terms-of-use
-    font-size: 15px
-
-  .block-privacy-middle, .block-terms-of-use
+  .block-privacy-middle
     padding-top: 60px
 
   .block-privacy-top
