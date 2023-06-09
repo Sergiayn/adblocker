@@ -8,15 +8,16 @@
         </a>
         <a href="http://gopeerclick.galaxys.info/offer"
            @click.prevent="isVisible = true"
-           class="link_app_store_qr">
-            <img src="@/assets/img/bg/qr-icon.svg" alt="qr code"> {{ $t("common.scan_qr_code") }}
+           class="link_app_store_qr" :class='{"big_title": $t("common.scan_qr_code").length > 12}'>
+            <img src="@/assets/img/bg/qr-icon.svg" alt="qr code">
+            <span>{{ $t("common.scan_qr_code") }}</span>
         </a>
     </div>
     <Modal v-model:visible="isVisible"
            :title='$t("common.scan_to_download")'
            modalClass="modalLinkApp">
-        <img v-if="footer" src="@/assets/img/app_store_qr_code_robocleaner.svg" alt="AddBlocker">
-        <img v-else src="@/assets/img/app_store_qr_code.svg" alt="RoboCleaner">
+        <img v-if="footer" src="@/assets/img/app_store_qr_code_robocleaner.svg" alt="RoboCleaner">
+        <img v-else src="@/assets/img/app_store_qr_code.svg" alt="AddBlocker">
     </Modal>
 </template>
 
@@ -129,6 +130,15 @@ export default {
         line-height: 1.3
       .row_2
         font-size: 16px
+    .link_app_store_qr
+      &.big_title
+        padding: 3px 9px
+        img
+          margin-top: 5px
+        span
+          font-size: 12px
+          line-height: 14px
+          max-width: 80px
 
   .link_app_store
     background-color: black
@@ -177,6 +187,8 @@ export default {
     .link_app_store_qr
       font-size: 10px
       padding: 2px 1px
+      &.big_title
+        font-size: 8px
       img
         height: 80%
 
@@ -185,6 +197,22 @@ export default {
   padding: 17px
   color: black !important
   line-height: 22px
+  span
+    padding-left: 5px
+  &.big_title
+    overflow: hidden
+    padding: 8px 17px
+    img, span
+      float: left
+    img
+      height: 19px
+      margin-top: 8px
+    span
+      font-size: 18px
+      line-height: 18px
+      text-align: left
+      max-width: 110px
+      padding-left: 10px
 
 .link_app_store_qr, .link_app_store_qr:hover, .link_app_store_qr:active
   background-color: rgba(239, 239, 239, 1)
@@ -239,6 +267,14 @@ export default {
 
       .row_2
         font-size: 17px
+    .link_app_store_qr
+      &.big_title
+        img
+          margin-top: 5px
+        span
+          font-size: 12px
+          line-height: 14px
+          max-width: 80px
 
 @media (max-width: 992px)
   .link_app_store_qr
@@ -246,6 +282,8 @@ export default {
     max-width: 140px
     padding: 5px
     width: 138px
+    &.big_title
+      font-size: 14px
 
   .link_app_store_qr img
     width: 18px
@@ -258,6 +296,8 @@ export default {
     .link_app_store_qr
       font-size: 14px
       padding-right: 0
+      &.big_title
+        font-size: 12px
 
     .link_app_store
       background-position: 6px center
@@ -285,6 +325,8 @@ export default {
 
     .link_app_store_qr
       font-size: 13px
+      &.big_title
+        font-size: 11px
 
     .link_app_store
       background-position: 10px center
@@ -309,6 +351,13 @@ export default {
               font-size: 7px
           .row_2
               font-size: 11px
+      .link_app_store_qr
+        &.big_title
+          padding: 1px 4px
+          span
+            font-size: 10px
+            line-height: 12px
+            max-width: 60px
 
   .modalLinkApp
     .modal-vue3-header

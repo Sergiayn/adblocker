@@ -137,8 +137,8 @@ export default defineComponent({
   box-shadow: 0 4px 8px rgba(22, 44, 22, 0.5)
   border-radius: 16px
   position: fixed
-  bottom: 80px
-  right: 0
+  bottom: 50px
+  right: 10px
   max-width: 460px
   padding: 24px
   -webkit-animation: linear
@@ -163,6 +163,21 @@ export default defineComponent({
     justify-content: center
     padding: 25px
     box-sizing: border-box
+
+    .flip-clock__slot
+      font-size: 10px
+      font-weight: 200
+      text-transform: uppercase
+
+    .flip-card
+      padding-bottom: 0.68em
+      b
+        font-family: 'Montserrat', sans-serif
+        font-size: 40px
+        font-weight: 400
+        width: 1.5em
+      .flip-card__back:before
+        width: 1.5em
 
   .brief
     padding-bottom: 10px
@@ -197,6 +212,20 @@ export default defineComponent({
 
   100%
     right: 60px
+
+@media (max-width: 992px)
+  .blockCelebrateContent
+    .flipclock
+      .flip-card
+        padding-bottom: 0.85em
+
+@media (max-width: 768px)
+  .blockCelebrateContent
+    .flipclock
+      .flip-card
+        padding-bottom: 0.75em
+        b
+          font-size: 32px
 
 @media (max-width: 576px)
   @-webkit-keyframes run
