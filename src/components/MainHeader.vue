@@ -6,7 +6,7 @@
                   <div class="row">
                       <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3">
                           <router-link :to="{name:'Home', params:{locale:$i18n.locale}}" class="logo">
-                              <img src="@/assets/img/logo.png" class="img-fluid" alt="AdBlocker">
+                              <img src="@/assets/img/logo.webp" class="img-fluid" alt="AdBlocker">
                               <span>AdBlocker</span>
                           </router-link>
                       </div>
@@ -48,7 +48,7 @@
               </div>
               <div v-else class="header-mobile xl-size">
                   <router-link class="logo" :to="{name:'Home', params:{locale:$i18n.locale}}">
-                      <img src="@/assets/img/logo.png" class="img-fluid" alt="AdBlocker">
+                      <img src="@/assets/img/logo.webp" class="img-fluid" alt="AdBlocker">
                       <span>AdBlocker</span>
                   </router-link>
                   <div class="mobile-top-menu">

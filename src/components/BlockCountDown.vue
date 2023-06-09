@@ -133,7 +133,7 @@ export default defineComponent({
 
 .blockCelebrateContent
   background-color: #fff
-  background-image: url("@/assets/img/bg/popupbg.png")
+  background-image: url("@/assets/img/bg/popupbg.webp")
   box-shadow: 0 4px 8px rgba(22, 44, 22, 0.5)
   border-radius: 16px
   position: fixed
@@ -191,7 +191,7 @@ export default defineComponent({
       font-weight: 600
 
   .close-popup
-    background-image: url("@/assets/img/bg/close.png")
+    background-image: url("@/assets/img/bg/close.webp")
     position: absolute
     top: -20px
     right: -20px

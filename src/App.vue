@@ -39,10 +39,10 @@ body
     width: 24px
 
 .ic-star-yellow
-    background-image: url("@/assets/img/bg/star-yellow.png")
+    background-image: url("@/assets/img/bg/star-yellow.webp")
 
 .ic-star-gray
-    background-image: url("@/assets/img/bg/star-empty.png")
+    background-image: url("@/assets/img/bg/star-empty.webp")
 
 .carousel__pagination
     padding-left: 0

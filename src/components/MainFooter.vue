@@ -57,8 +57,8 @@ export default {
     name: "MainFooter",
     data() {
         let apps = ref([
-                {name:'RoboCleaner', img: 'rc.png', link:'app/phone-cleaner-robo-clean-up/id1603385704'},
-                {name:'Network Analyzer', img: 'na.png', link:'app/network-analyzer/id1660559510'},
+                {name:'RoboCleaner', img: 'rc.webp', link:'app/phone-cleaner-robo-clean-up/id1603385704'},
+                {name:'Network Analyzer', img: 'na.webp', link:'app/network-analyzer/id1660559510'},
             ])
         return {apps, screenWidth: 0}
     },

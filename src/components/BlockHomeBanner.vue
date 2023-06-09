@@ -2,8 +2,8 @@
 import {defineComponent} from 'vue'
 import BlockLinkApp from "@/components/BlockLinkApp"
 
-import banner_iphone_en from "@/assets/img/lang/en/banner_iphone.png"
-import banner_iphone_es from "@/assets/img/lang/es/banner_iphone.png"
+import banner_iphone_en from "@/assets/img/lang/en/banner_iphone.webp"
+import banner_iphone_es from "@/assets/img/lang/es/banner_iphone.webp"
 
 export default defineComponent({
   name: "BlockHomeBanner",
@@ -73,11 +73,11 @@ export default defineComponent({
 
 @media (min-width: 1200px)
   .main-top-bg
-    background-image: url("@/assets/img/bg/main_bg_xl.png")
+    background-image: url("@/assets/img/bg/main_bg_xl.webp")
 
 @media (max-width: 1200px)
   .main-top-bg
-    background-image: url("@/assets/img/bg/main_bg_lg.png")
+    background-image: url("@/assets/img/bg/main_bg_lg.webp")
 
   .banner
     background-size: 190px
@@ -97,11 +97,11 @@ export default defineComponent({
 
 @media (max-width: 992px)
   .main-top-bg
-    background-image: url("@/assets/img/bg/main_bg_md.png")
+    background-image: url("@/assets/img/bg/main_bg_md.webp")
 
 @media (max-width: 768px)
   .main-top-bg
-    background-image: url("@/assets/img/bg/main_bg_sm.png")
+    background-image: url("@/assets/img/bg/main_bg_sm.webp")
 
   .banner
     background-size: 160px

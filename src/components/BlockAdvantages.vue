@@ -84,16 +84,16 @@ $border_radius: 8px
     background-color: rgba(30, 226, 13, 1)
 
   .program_1
-    background-image: url("@/assets/img/block-advantages/1.png")
+    background-image: url("@/assets/img/block-advantages/1.webp")
 
   .program_2
-    background-image: url("@/assets/img/block-advantages/2.png")
+    background-image: url("@/assets/img/block-advantages/2.webp")
 
   .program_3
-    background-image: url("@/assets/img/block-advantages/3.png")
+    background-image: url("@/assets/img/block-advantages/3.webp")
 
   .program_4
-    background-image: url("@/assets/img/block-advantages/4.png")
+    background-image: url("@/assets/img/block-advantages/4.webp")
 
   .caption
     max-width: 118px

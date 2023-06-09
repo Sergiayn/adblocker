@@ -3,17 +3,17 @@ import {defineComponent} from 'vue'
 import BlockLinkApp from "@/components/BlockLinkApp"
 import {Carousel, Slide, Pagination} from 'vue3-carousel'
 
-import img_1_en from "@/assets/img/lang/en/feature/img_1.png"
-import img_2_en from "@/assets/img/lang/en/feature/img_2.png"
-import slide_1_en from "@/assets/img/lang/en/feature/slide_1.png"
-import slide_2_en from "@/assets/img/lang/en/feature/slide_2.png"
-import slide_3_en from "@/assets/img/lang/en/feature/slide_3.png"
+import img_1_en from "@/assets/img/lang/en/feature/img_1.webp"
+import img_2_en from "@/assets/img/lang/en/feature/img_2.webp"
+import slide_1_en from "@/assets/img/lang/en/feature/slide_1.webp"
+import slide_2_en from "@/assets/img/lang/en/feature/slide_2.webp"
+import slide_3_en from "@/assets/img/lang/en/feature/slide_3.webp"
 
-import img_1_es from "@/assets/img/lang/es/feature/img_1.png"
-import img_2_es from "@/assets/img/lang/es/feature/img_2.png"
-import slide_1_es from "@/assets/img/lang/es/feature/slide_1.png"
-import slide_2_es from "@/assets/img/lang/es/feature/slide_2.png"
-import slide_3_es from "@/assets/img/lang/es/feature/slide_3.png"
+import img_1_es from "@/assets/img/lang/es/feature/img_1.webp"
+import img_2_es from "@/assets/img/lang/es/feature/img_2.webp"
+import slide_1_es from "@/assets/img/lang/es/feature/slide_1.webp"
+import slide_2_es from "@/assets/img/lang/es/feature/slide_2.webp"
+import slide_3_es from "@/assets/img/lang/es/feature/slide_3.webp"
 
 
 export default defineComponent({

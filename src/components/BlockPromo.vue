@@ -1,9 +1,9 @@
 <script>
 import {defineComponent} from 'vue'
-import img_1_en from "@/assets/img/lang/en/promo/img_1.png"
-import img_2_en from "@/assets/img/lang/en/promo/img_2.png"
-import img_1_es from "@/assets/img/lang/es/promo/img_1.png"
-import img_2_es from "@/assets/img/lang/es/promo/img_2.png"
+import img_1_en from "@/assets/img/lang/en/promo/img_1.webp"
+import img_2_en from "@/assets/img/lang/en/promo/img_2.webp"
+import img_1_es from "@/assets/img/lang/es/promo/img_1.webp"
+import img_2_es from "@/assets/img/lang/es/promo/img_2.webp"
 
 export default defineComponent({
     name: "BlockPromo",
@@ -66,7 +66,7 @@ export default defineComponent({
 
 @media (min-width: 1200px)
   .block-promo
-    background-image: url("@/assets/img/bg/promo_main_bg_xl.png")
+    background-image: url("@/assets/img/bg/promo_main_bg_xl.webp")
 
 @media (max-width: 1400px)
     .block-promo
@@ -75,7 +75,7 @@ export default defineComponent({
 
 @media (max-width: 1200px)
   .block-promo
-    background-image: url("@/assets/img/bg/promo_main_bg_lg.png")
+    background-image: url("@/assets/img/bg/promo_main_bg_lg.webp")
 
     .desc
       font-size: 18px
@@ -86,7 +86,7 @@ export default defineComponent({
 
 @media (max-width: 992px)
   .block-promo
-    background-image: url("@/assets/img/bg/promo_main_bg_md.png")
+    background-image: url("@/assets/img/bg/promo_main_bg_md.webp")
     .desc
       font-size: 16px
 
@@ -96,7 +96,7 @@ export default defineComponent({
 
 @media (max-width: 768px)
   .block-promo
-    background-image: url("@/assets/img/bg/promo_main_bg_sm.png")
+    background-image: url("@/assets/img/bg/promo_main_bg_sm.webp")
     .desc
       font-size: 14px
       margin: 0 auto 0

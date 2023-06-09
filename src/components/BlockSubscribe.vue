@@ -138,13 +138,13 @@ export default {
       width: 40px
 
     .instagram
-      background-image: url("@/assets/img/social/instagram.png")
+      background-image: url("@/assets/img/social/instagram.webp")
 
     .facebook
-      background-image: url("@/assets/img/social/facebook.png")
+      background-image: url("@/assets/img/social/facebook.webp")
 
     .telegram
-      background-image: url("@/assets/img/social/telegram.png")
+      background-image: url("@/assets/img/social/telegram.webp")
 
 .modalBlockSubscribe
   .modal-vue3-body
