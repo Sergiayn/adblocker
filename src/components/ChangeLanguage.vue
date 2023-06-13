@@ -47,8 +47,9 @@ export default {
         }
     },
     mounted() {
-        this.updateScreenWidth();
-        this.onScreenResize();
+        this.updateScreenWidth()
+        this.onScreenResize()
+        this.setLangAttribute()
     },
     methods: {
         onScreenResize() {
@@ -73,7 +74,11 @@ export default {
             this.$i18n.locale = locale
             this.$router.replace({params: {locale}, hash})
             this.isOpen = false
-            this.$emit('eventSetLocale', locale);
+            this.$emit('eventSetLocale', locale)
+            this.setLangAttribute()
+        },
+        setLangAttribute(){
+          document.documentElement.setAttribute('lang', this.$i18n.locale)
         },
         toggleMenu() {
             if (this.isOverLang === true)

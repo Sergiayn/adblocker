@@ -17,9 +17,7 @@ export default defineComponent({
     const {cookies} = useCookies()
     const deadline = ref(this.dateToString(new Date()))
 
-    setTimeout(() => {
-      this.init()
-    },10)
+    setTimeout(() => {this.init()},10)
 
     return {
       cookies,
@@ -228,6 +226,31 @@ export default defineComponent({
           font-size: 32px
 
 @media (max-width: 576px)
+  .blockCelebrateContent
+    .close-popup
+      background-size: 24px
+      height: 24px
+      width: 24px
+      top: -10px
+      right: -10px
+    .title
+      span
+        font-size: 18px
+    .desc
+      font-size: 12px
+      padding-top: 5px
+    .flipclock
+      padding: 16px
+    .brief
+      span
+        font-size: 10px
+      strong
+        font-size: 12px
+    .controls
+      a
+        font-size: 14px
+        padding: 8px 38px
+
   @-webkit-keyframes run
     0%
       right: -300px

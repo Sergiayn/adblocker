@@ -190,7 +190,6 @@ footer
     .footer-bottom
         .copyright
           padding-bottom: 5px
-          text-align: center
 
 @media (max-width: 576px)
   .footer-bottom
