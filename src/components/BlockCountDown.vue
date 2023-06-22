@@ -40,7 +40,6 @@ export default defineComponent({
           break;
         } else if (
             ((month === 12 && item.date.month === 1) || (month + 1) === item.date.month)
-            && item.date.day >= day
         ) {
           this.targetItem = item
           break;
