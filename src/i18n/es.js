@@ -178,7 +178,7 @@ const translate = {
     },
     page_terms_of_use: {
         line_1: 'Puede suscribirse a una cuenta premium sin límites y sin anuncios.',
-        line_2: 'La suscripción es de $5.99 al mes después de una prueba gratuita de 14 días.',
+        line_2: 'La suscripción es de $9.99 al mes después de una prueba gratuita de 3 días.',
         line_3: 'Puede suscribirse a una cuenta premium sin límites y sin anuncios.',
         line_4: 'Todos los precios están sujetos a cambios sin previo aviso. Ocasionalmente, ofrecemos precios promocionales como incentivos u oportunidades de tiempo limitado para compras elegibles realizadas durante el período de tiempo promocional. Debido a la naturaleza temporal y promocional de estos eventos, no podemos ofrecer protección de precios o descuentos o reembolsos retroactivos por compras anteriores en caso de una reducción de precio o una oferta promocional.',
         line_5: 'El pago se cargará a la cuenta de iTunes al confirmar la compra.',
