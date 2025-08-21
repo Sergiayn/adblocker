@@ -180,7 +180,7 @@ const translate = {
     },
     page_terms_of_use: {
         line_1: 'You can subscribe for premium account with unlimited and no ads.',
-        line_2: 'Subscription is from $5.99/month after 14 days free trial .',
+        line_2: 'Subscription is from $9.99/month after 3 days free trial .',
         line_3: 'You can subscribe for a premium account with unlimited and no ads.',
         line_4: 'All prices are subject to change without notification. We occasionally run promotion prices as incentives or limited time opportunities for qualifying purchases made during the promotional time period. Due to the time sensitive and promotional nature of these events we are unable to offer price protection or retroactive discounts or refunds for previous purchases in the event of a price reduction or promotional offering.',
         line_5: 'Payment will be charged to iTunes account at confirmation of purchase.',
